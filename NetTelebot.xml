@@ -1,0 +1,4302 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NetTelebot</name>
+    </assembly>
+    <members>
+        <member name="T:NetTelebot.BotEnum.AllowedUpdates">
+            <summary>
+            List the types of updates you want your bot to receive.
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.AllowedUpdates.Message">
+            <summary>
+            New incoming message of any kind — text, photo, sticker, etc.
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.AllowedUpdates.EditedMessage">
+            <summary>
+            New version of a message that is known to the bot and was edited
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.AllowedUpdates.ChannelPost">
+            <summary>
+            New incoming channel post of any kind — text, photo, sticker, etc.
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.AllowedUpdates.EditedChannelPost">
+            <summary>
+            New version of a channel post that is known to the bot and was edited
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.AllowedUpdates.InlineQuery">
+            <summary>
+            New incoming inline query
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.AllowedUpdates.ChosenInlineResult">
+            <summary>
+            The result of an inline query that was chosen by a user and sent to their chat partner. 
+            Please see our documentation on the feedback collecting for details on how to enable these updates for your bot.
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.AllowedUpdates.CallbackQuery">
+            <summary>
+            New incoming callback query
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.AllowedUpdates.ShippingQuery">
+            <summary>
+            New incoming shipping query. Only for invoices with flexible price
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.AllowedUpdates.PreCheckoutQuery">
+            <summary>
+            New incoming pre-checkout query. Contains full information about checkout
+            </summary>
+        </member>
+        <member name="T:NetTelebot.BotEnum.Countries">
+            <summary>
+            Countries code ISO 3166-1 alpha-2
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.AW">
+            <summary>
+            Aruba
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.AF">
+            <summary>
+            Afghanistan
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.AO">
+            <summary>
+            Angola
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.AI">
+            <summary>
+            Anguilla
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.AX">
+            <summary>
+            Åland Islands
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.AL">
+            <summary>
+            Albania
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.AD">
+            <summary>
+            Andorra
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.AE">
+            <summary>
+            United Arab Emirates
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.AR">
+            <summary>
+            Argentina
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.AM">
+            <summary>
+            Armenia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.AS">
+            <summary>
+            American Samoa
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.AQ">
+            <summary>
+            Antarctica
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.TF">
+            <summary>
+            French Southern and Antarctic Lands
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.AG">
+            <summary>
+            Antigua and Barbuda
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.AU">
+            <summary>
+            Australia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.AT">
+            <summary>
+            Austria
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.AZ">
+            <summary>
+            Azerbaijan
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.BI">
+            <summary>
+            Burundi
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.BE">
+            <summary>
+            Belgium
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.BJ">
+            <summary>
+            Benin
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.BF">
+            <summary>
+            Burkina Faso
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.BD">
+            <summary>
+            Bangladesh
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.BG">
+            <summary>
+            Bulgaria
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.BH">
+            <summary>
+            Bahrain
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.BS">
+            <summary>
+            Bahamas
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.BA">
+            <summary>
+            Bosnia and Herzegovina
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.BL">
+            <summary>
+            Saint Barthélemy
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.BY">
+            <summary>
+            Belarus
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.BZ">
+            <summary>
+            Belize
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.BM">
+            <summary>
+            Bermuda
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.BO">
+            <summary>
+            Bolivia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.BR">
+            <summary>
+            Brazil
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.BB">
+            <summary>
+            Barbados
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.BN">
+            <summary>
+            Brunei
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.BT">
+            <summary>
+            Bhutan
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.BV">
+            <summary>
+            Bouvet Island
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.BW">
+            <summary>
+            Botswana
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.CF">
+            <summary>
+            Central African Republic
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.CA">
+            <summary>
+            Canada
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.CC">
+            <summary>
+            Cocos (Keeling) Islands
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.CH">
+            <summary>
+            Switzerland
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.CL">
+            <summary>
+            Chile
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.CN">
+            <summary>
+            China
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.CI">
+            <summary>
+            Ivory Coast
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.CM">
+            <summary>
+            Cameroon
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.CD">
+            <summary>
+            DR Congo
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.CG">
+            <summary>
+            Republic of the Congo
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.CK">
+            <summary>
+            Cook Islands
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.CO">
+            <summary>
+            Colombia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.KM">
+            <summary>
+            Comoros
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.CV">
+            <summary>
+            Cape Verde
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.CR">
+            <summary>
+            Costa Rica
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.CU">
+            <summary>
+            Cuba
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.CW">
+            <summary>
+            Curaçao
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.CX">
+            <summary>
+            Christmas Island
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.KY">
+            <summary>
+            Cayman Islands
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.CY">
+            <summary>
+            Cyprus
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.CZ">
+            <summary>
+            Czechia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.DE">
+            <summary>
+            Germany
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.DJ">
+            <summary>
+            Djibouti
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.DM">
+            <summary>
+            Dominica
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.DK">
+            <summary>
+            Denmark
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.DO">
+            <summary>
+            Dominican Republic
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.DZ">
+            <summary>
+            Algeria
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.EC">
+            <summary>
+            Ecuador
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.EG">
+            <summary>
+            Egypt
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.ER">
+            <summary>
+            Eritrea
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.EH">
+            <summary>
+            Western Sahara
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.ES">
+            <summary>
+            Spain
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.EE">
+            <summary>
+            Estonia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.ET">
+            <summary>
+            Ethiopia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.FI">
+            <summary>
+            Finland
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.FJ">
+            <summary>
+            Fiji
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.FK">
+            <summary>
+            Falkland Islands
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.FR">
+            <summary>
+            France
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.FO">
+            <summary>
+            Faroe Islands
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.FM">
+            <summary>
+            Micronesia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.GA">
+            <summary>
+            Gabon
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.GB">
+            <summary>
+            United Kingdom
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.GE">
+            <summary>
+            Georgia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.GG">
+            <summary>
+            Guernsey
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.GH">
+            <summary>
+            Ghana
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.GI">
+            <summary>
+            Gibraltar
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.GN">
+            <summary>
+            Guinea
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.GP">
+            <summary>
+            Guadeloupe
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.GM">
+            <summary>
+            Gambia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.GW">
+            <summary>
+            Guinea-Bissau
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.GQ">
+            <summary>
+            Equatorial Guinea
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.GR">
+            <summary>
+            Greece
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.GD">
+            <summary>
+            Grenada
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.GL">
+            <summary>
+            Greenland
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.GT">
+            <summary>
+            Guatemala
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.GF">
+            <summary>
+            French Guiana
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.GU">
+            <summary>
+            Guam
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.GY">
+            <summary>
+            Guyana
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.HK">
+            <summary>
+            Hong Kong
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.HM">
+            <summary>
+            Heard Island and McDonald Islands
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.HN">
+            <summary>
+            Honduras
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.HR">
+            <summary>
+            Croatia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.HT">
+            <summary>
+            Haiti
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.HU">
+            <summary>
+            Hungary
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.ID">
+            <summary>
+            Indonesia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.IM">
+            <summary>
+            Isle of Man
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.IN">
+            <summary>
+            India
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.IO">
+            <summary>
+            British Indian Ocean Territory
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.IE">
+            <summary>
+            Ireland
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.IR">
+            <summary>
+            Iran
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.IQ">
+            <summary>
+            Iraq
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.IS">
+            <summary>
+            Iceland
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.IL">
+            <summary>
+            Israel
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.IT">
+            <summary>
+            Italy
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.JM">
+            <summary>
+            Jamaica
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.JE">
+            <summary>
+            Jersey
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.JO">
+            <summary>
+            Jordan
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.JP">
+            <summary>
+            Japan
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.KZ">
+            <summary>
+            Kazakhstan
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.KE">
+            <summary>
+            Kenya
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.KG">
+            <summary>
+            Kyrgyzstan
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.KH">
+            <summary>
+            Cambodia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.KI">
+            <summary>
+            Kiribati
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.KN">
+            <summary>
+            Saint Kitts and Nevis
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.KR">
+            <summary>
+            South Korea
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.XK">
+            <summary>
+            Kosovo
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.KW">
+            <summary>
+            Kuwait
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.LA">
+            <summary>
+            Laos
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.LB">
+            <summary>
+            Lebanon
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.LR">
+            <summary>
+            Liberia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.LY">
+            <summary>
+            Libya
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.LC">
+            <summary>
+            Saint Lucia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.LI">
+            <summary>
+            Liechtenstein
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.LK">
+            <summary>
+            Sri Lanka
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.LS">
+            <summary>
+            Lesotho
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.LT">
+            <summary>
+            Lithuania
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.LU">
+            <summary>
+            Luxembourg
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.LV">
+            <summary>
+            Latvia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.MO">
+            <summary>
+            Macau
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.MF">
+            <summary>
+            Saint Martin
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.MA">
+            <summary>
+            Morocco
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.MC">
+            <summary>
+            Monaco
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.MD">
+            <summary>
+            Moldova
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.MG">
+            <summary>
+            Madagascar
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.MV">
+            <summary>
+            Maldives
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.MX">
+            <summary>
+            Mexico
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.MH">
+            <summary>
+            Marshall Islands
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.MK">
+            <summary>
+            Macedonia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.ML">
+            <summary>
+            Mali
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.MT">
+            <summary>
+            Malta
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.MM">
+            <summary>
+            Myanmar
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.ME">
+            <summary>
+            Montenegro
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.MN">
+            <summary>
+            Mongolia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.MP">
+            <summary>
+            Northern Mariana Islands
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.MZ">
+            <summary>
+            Mozambique
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.MR">
+            <summary>
+            Mauritania
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.MS">
+            <summary>
+            Montserrat
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.MQ">
+            <summary>
+            Martinique
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.MU">
+            <summary>
+            Mauritius
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.MW">
+            <summary>
+            Malawi
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.MY">
+            <summary>
+            Malaysia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.YT">
+            <summary>
+            Mayotte
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.NA">
+            <summary>
+            Namibia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.NC">
+            <summary>
+            New Caledonia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.NE">
+            <summary>
+            Niger
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.NF">
+            <summary>
+            Norfolk Island
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.NG">
+            <summary>
+            Nigeria
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.NI">
+            <summary>
+            Nicaragua
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.NU">
+            <summary>
+            Niue
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.NL">
+            <summary>
+            Netherlands
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.NO">
+            <summary>
+            Norway
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.NP">
+            <summary>
+            Nepal
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.NR">
+            <summary>
+            Nauru
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.NZ">
+            <summary>
+            New Zealand
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.OM">
+            <summary>
+            Oman
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.PK">
+            <summary>
+            Pakistan
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.PA">
+            <summary>
+            Panama
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.PN">
+            <summary>
+            Pitcairn Islands
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.PE">
+            <summary>
+            Peru
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.PH">
+            <summary>
+            Philippines
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.PW">
+            <summary>
+            Palau
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.PG">
+            <summary>
+            Papua New Guinea
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.PL">
+            <summary>
+            Poland
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.PR">
+            <summary>
+            Puerto Rico
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.KP">
+            <summary>
+            North Korea
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.PT">
+            <summary>
+            Portugal
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.PY">
+            <summary>
+            Paraguay
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.PS">
+            <summary>
+            Palestine
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.PF">
+            <summary>
+            French Polynesia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.QA">
+            <summary>
+            Qatar
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.RE">
+            <summary>
+            Réunion
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.RO">
+            <summary>
+            Romania
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.RU">
+            <summary>
+            Russia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.RW">
+            <summary>
+            Rwanda
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.SA">
+            <summary>
+            Saudi Arabia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.SD">
+            <summary>
+            Sudan
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.SN">
+            <summary>
+            Senegal
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.SG">
+            <summary>
+            Singapore
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.GS">
+            <summary>
+            South Georgia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.SJ">
+            <summary>
+            Svalbard and Jan Mayen
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.SB">
+            <summary>
+            Solomon Islands
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.SL">
+            <summary>
+            Sierra Leone
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.SV">
+            <summary>
+            El Salvador
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.SM">
+            <summary>
+            San Marino
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.SO">
+            <summary>
+            Somalia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.PM">
+            <summary>
+            Saint Pierre and Miquelon
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.RS">
+            <summary>
+            Serbia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.SS">
+            <summary>
+            South Sudan
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.ST">
+            <summary>
+            São Tomé and Príncipe
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.SR">
+            <summary>
+            Suriname
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.SK">
+            <summary>
+            Slovakia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.SI">
+            <summary>
+            Slovenia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.SE">
+            <summary>
+            Sweden
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.SZ">
+            <summary>
+            Swaziland
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.SX">
+            <summary>
+            Sint Maarten
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.SC">
+            <summary>
+            Seychelles
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.SY">
+            <summary>
+            Syria
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.TC">
+            <summary>
+            Turks and Caicos Islands
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.TD">
+            <summary>
+            Chad
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.TG">
+            <summary>
+            Togo
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.TH">
+            <summary>
+            Thailand
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.TJ">
+            <summary>
+            Tajikistan
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.TK">
+            <summary>
+            Tokelau
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.TM">
+            <summary>
+            Turkmenistan
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.TL">
+            <summary>
+            Timor-Leste
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.TO">
+            <summary>
+            Tonga
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.TT">
+            <summary>
+            Trinidad and Tobago
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.TN">
+            <summary>
+            Tunisia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.TR">
+            <summary>
+            Turkey
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.TV">
+            <summary>
+            Tuvalu
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.TW">
+            <summary>
+            Taiwan
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.TZ">
+            <summary>
+            Tanzania
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.UG">
+            <summary>
+            Uganda
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.UA">
+            <summary>
+            Ukraine
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.UM">
+            <summary>
+            United States Minor Outlying Islands
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.UY">
+            <summary>
+            Uruguay
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.US">
+            <summary>
+            United States
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.UZ">
+            <summary>
+            Uzbekistan
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.VA">
+            <summary>
+            Vatican City
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.VC">
+            <summary>
+            Saint Vincent and the Grenadines
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.VE">
+            <summary>
+            Venezuela
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.VG">
+            <summary>
+            British Virgin Islands
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.VI">
+            <summary>
+            United States Virgin Islands
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.VN">
+            <summary>
+            Vietnam
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.VU">
+            <summary>
+            Vanuatu
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.WF">
+            <summary>
+            Wallis and Futuna
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.WS">
+            <summary>
+            Samoa
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.YE">
+            <summary>
+            Yemen
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.ZA">
+            <summary>
+            South Africa
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.ZM">
+            <summary>
+            Zambia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Countries.ZW">
+            <summary>
+            Zimbabwe
+            </summary>
+        </member>
+        <member name="T:NetTelebot.BotEnum.Currency">
+            <summary>
+            Three-letter ISO 4217 currency code
+            
+            Telegram payments currently support the currencies enum below.
+            If you're using Stripe as the payments provider, supported currencies may vary depending on the 
+            country you have specified in your Stripe account (more info).
+            The minimum and maximum amounts for each of the currencies roughly correspond to the limit of US$ 1-10000.
+            The amount must be expressed in 8 digits or less, so the maximum value will be correspondingly lower for 
+            some lower-value currencies like the Serbian dinar.
+            Note that for each currency except USD these limits depend on exchange rates and may change over time 
+            (plan ahead for this when you implement limits in your code).
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.AED">
+            <summary>
+            United Arab Emirates Dirham
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.AFN">
+            <summary>
+            Afghan Afghani
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.ALL">
+            <summary>
+            Albanian Lek
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.AMD">
+            <summary>
+            Аrmenian Dram
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.ARS">
+            <summary>
+            Argentine Peso
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.AUD">
+            <summary>
+            Australian Dollar
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.AZN">
+            <summary>
+            Azerbaijani Manat
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.BAM">
+            <summary>
+            Bosnia And Herzegovina Convertible Mark
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.BDT">
+            <summary>
+            Bangladeshi Taka
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.BGN">
+            <summary>
+            Bulgarian Lev
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.BND">
+            <summary>
+            Brunei Dollar
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.BOB">
+            <summary>
+            Bolivian Boliviano
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.BRL">
+            <summary>
+            Brazilian Real
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.CAD">
+            <summary>
+            Canadian Dollar
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.CHF">
+            <summary>
+            Swiss Franc
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.CLP">
+            <summary>
+            Chilean Peso
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.CNY">
+            <summary>
+            Chinese Renminbi Yuan
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.COP">
+            <summary>
+            Colombian Peso
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.CRC">
+            <summary>
+            Costa Rican Colón
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.CZK">
+            <summary>
+            Czech Koruna
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.DKK">
+            <summary>
+            Danish Krone
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.DOP">
+            <summary>
+            Dominican Peso
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.DZD">
+            <summary>
+            Algerian Dinar
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.EGP">
+            <summary>
+            Egyptian Pound
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.EUR">
+            <summary>
+            Euro
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.GBP">
+            <summary>
+            British Pound
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.GEL">
+            <summary>
+            Georgian Lari
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.GTQ">
+            <summary>
+            Guatemalan Quetzal
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.HKD">
+            <summary>
+            Hong Kong Dollar
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.HNL">
+            <summary>
+            Honduran Lempira
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.HRK">
+            <summary>
+            Croatian Kuna
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.HUF">
+            <summary>
+            Hungarian Forint
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.IDR">
+            <summary>
+            Indonesian Rupiah
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.ILS">
+            <summary>
+            Israeli New Sheqel
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.INR">
+            <summary>
+            Indian Rupee
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.ISK">
+            <summary>
+            Icelandic Króna
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.JMD">
+            <summary>
+            Jamaican Dollar
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.JPY">
+            <summary>
+            Japanese Yen
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.KES">
+            <summary>
+            Kenyan Shilling
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.KGS">
+            <summary>
+            Kyrgyzstani Som
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.KRW">
+            <summary>
+            South Korean Won
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.KZT">
+            <summary>
+            Kazakhstani Tenge
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.LBP">
+            <summary>
+            Lebanese Pound
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.LKR">
+            <summary>
+            Sri Lankan Rupee
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.MAD">
+            <summary>
+            Moroccan Dirham
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.MDL">
+            <summary>
+            Moldovan Leu
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.MNT">
+            <summary>
+            Mongolian Tögrög
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.MUR">
+            <summary>
+            Mauritian Rupee
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.MVR">
+            <summary>
+            Maldivian Rufiyaa
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.MXN">
+            <summary>
+            Mexican Peso
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.MYR">
+            <summary>
+            Malaysian Ringgit
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.MZN">
+            <summary>
+            Mozambican Metical
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.NGN">
+            <summary>
+            Nigerian Naira
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.NIO">
+            <summary>
+            Nicaraguan Córdoba
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.NOK">
+            <summary>
+            Norwegian Krone
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.NPR">
+            <summary>
+            Nepalese Rupee
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.NZD">
+            <summary>
+            New Zealand Dollar
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.PAB">
+            <summary>
+            Panamanian Balboa
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.PEN">
+            <summary>
+            Peruvian Nuevo Sol
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.PHP">
+            <summary>
+            Philippine Peso
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.PKR">
+            <summary>
+            Pakistani Rupee
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.PLN">
+            <summary>
+            Polish Złoty
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.PYG">
+            <summary>
+            Paraguayan Guaraní
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.QAR">
+            <summary>
+            Qatari Riyal
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.RON">
+            <summary>
+            Romanian Leu
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.RSD">
+            <summary>
+            Serbian Dinar
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.RUB">
+            <summary>
+            Russian Ruble
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.SAR">
+            <summary>
+            Saudi Riyal
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.SEK">
+            <summary>
+            Swedish Krona
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.SGD">
+            <summary>
+            Singapore Dollar
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.THB">
+            <summary>
+            Thai Baht
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.TJS">
+            <summary>
+            Tajikistani Somoni
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.TRY">
+            <summary>
+            Turkish Lira
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.TTD">
+            <summary>
+            Trinidad and Tobago Dollar
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.TWD">
+            <summary>
+            New Taiwan Dollar
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.TZS">
+            <summary>
+            Tanzanian Shilling
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.UAH">
+            <summary>
+            Ukrainian Hryvnia
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.UGX">
+            <summary>
+            Ugandan Shilling
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.USD">
+            <summary>
+            United States Dollar
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.UYU">
+            <summary>
+            Uruguayan Peso
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.UZS">
+            <summary>
+            Uzbekistani Som
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.VND">
+            <summary>
+            Vietnamese Đồng
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.YER">
+            <summary>
+            Yemeni Rial
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Currency.ZAR">
+            <summary>
+            South African Rand
+            </summary>
+        </member>
+        <member name="T:NetTelebot.BotEnum.Status">
+            <summary>
+            The member's status in the chat.
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Status.creator">
+            <summary>
+            The creator
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Status.administrator">
+            <summary>
+            The administrator
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Status.member">
+            <summary>
+            The member
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Status.restricted">
+            <summary>
+            The restricted
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Status.left">
+            <summary>
+            The left
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.Status.kicked">
+            <summary>
+            The kicked
+            </summary>
+        </member>
+        <member name="T:NetTelebot.BotEnum.ChatActions">
+            <summary>
+            Use this enum when you need to tell the user that something is happening on the bot's side.
+            The status is set for 5 seconds or less (when a message arrives from your bot, Telegram clients clear its typing status).
+            Type of action to broadcast. Choose one, depending on what the user is about to receive
+            Type of action to broadcast. Choose one, depending on what the user is about to receive: 
+            typing for text messages, 
+            upload_photo for photos, 
+            record_video or upload_video for videos, 
+            record_audio or upload_audio for audio files, 
+            upload_document for general files, 
+            find_location for location data, 
+            record_video_note or upload_video_note for video notes.
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.ChatActions.Typing">
+            <summary>
+            User is about to receive text message 
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.ChatActions.Upload_photo">
+            <summary>
+            User is about to receive photos
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.ChatActions.Record_video">
+            <summary>
+            User is about to receive video
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.ChatActions.Upload_video">
+            <summary>
+            User is about to receive video
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.ChatActions.Record_audio">
+            <summary>
+            User is about to receive audio files
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.ChatActions.Upload_audio">
+            <summary>
+            User is about to receive audio files
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.ChatActions.Upload_document">
+            <summary>
+            User is about to receive general files
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.ChatActions.Find_location">
+            <summary>
+            User is about to receive location data
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.ChatActions.Record_video_note">
+            <summary>
+            User is about to receive video notes
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.ChatActions.Upload_video_note">
+            <summary>
+            User is about to receive video notes
+            </summary>
+        </member>
+        <member name="T:NetTelebot.BotEnum.ChatType">
+            <summary>
+            Type of chat, can be either “private”, “group”, “supergroup” or “channel”
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.ChatType.private">
+            <summary>
+            The private
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.ChatType.group">
+            <summary>
+            The group
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.ChatType.supergroup">
+            <summary>
+            The supergroup
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.ChatType.channel">
+            <summary>
+            The channel
+            </summary>
+        </member>
+        <member name="T:NetTelebot.BotEnum.ParseMode">
+            <summary>
+            Use this if you want Telegram apps to show bold, italic, fixed-width text or inline URLs in your bot's message. Optional.
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.ParseMode.Markdown">
+            <summary>
+            How use <see href="https://core.telegram.org/bots/api#markdown-style">this</see>
+            </summary>
+        </member>
+        <member name="F:NetTelebot.BotEnum.ParseMode.HTML">
+            <summary>
+            How use <see href="https://core.telegram.org/bots/api#html-style">this</see>
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Interface.IInlineKeyboardMarkup">
+            <summary>
+            This interface is used to specify inline_keyboard_markup parameter when edited a message.
+            Can be InlineKeyboardMarkup.
+            </summary>
+        </member>
+        <member name="M:NetTelebot.Interface.IInlineKeyboardMarkup.GetJson">
+            <summary>
+            Gets the json InlineKeyboardMarkup
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Interface.IFile">
+            <summary>
+            This interface is used when calling SendPhoto, SendAudio, SendVideo and SendDocument. It can be a NewFile or Existing class.
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Interface.IReplyMarkup">
+            <summary>
+            This interface is used to specify reply_markup parameter when sending a message. 
+            Can be InlineKeyboardMarkup, ReplyKeyboardMarkup, ReplyKeyboardRemove or ForceReply
+            </summary>
+        </member>
+        <member name="M:NetTelebot.Interface.IReplyMarkup.GetJson">
+            <summary>
+            Gets the json InlineKeyboardMarkup, ReplyKeyboardMarkup, ReplyKeyboardRemove or ForceReply
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Result.ChatInfoResult">
+            <summary>
+            When calling method returned <see cref="T:NetTelebot.Type.ChatInfo"/> in result field on TelegramBotClient class, this object will be returned.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Result.ChatInfoResult.Ok">
+            <summary>
+            Result request.
+            </summary>
+            <value>
+              <c>true</c> if ok; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:NetTelebot.Result.ChatInfoResult.Result">
+            <summary>
+            Gets the result.
+            </summary>
+            <value>
+            The result is instance of the <see cref="T:NetTelebot.Type.MessageInfo"/> class
+            </value>
+        </member>
+        <member name="T:NetTelebot.Result.ChatMemberInfoResult">
+            <summary>
+            When calling method returned <see cref="T:NetTelebot.Type.ChatMemberInfo"/> in result field on TelegramBotClient class, this object will be returned.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Result.ChatMemberInfoResult.Ok">
+            <summary>
+            Result request
+            </summary>
+            <value>
+              <c>true</c> if ok; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:NetTelebot.Result.ChatMemberInfoResult.Result">
+            <summary>
+            Gets the result.
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Result.ChatMembersInfoResult">
+            <summary>
+            When calling method returned array of <see cref="T:NetTelebot.Type.ChatMemberInfo"/> in result field on TelegramBotClient class, this object will be returned.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Result.ChatMembersInfoResult.Ok">
+            <summary>
+            Result request
+            </summary>
+            <value>
+              <c>true</c> if ok; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:NetTelebot.Result.ChatMembersInfoResult.Result">
+            <summary>
+            Gets the result.
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Result.FileInfoResult">
+            <summary>
+            When calling method returned <see cref="T:NetTelebot.Type.FileInfo"/> in result field on TelegramBotClient class, this object will be returned.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Result.FileInfoResult.Ok">
+            <summary>
+            Result request
+            </summary>
+            <value>
+              <c>true</c> if ok; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:NetTelebot.Result.FileInfoResult.Result">
+            <summary>
+            Gets the result.
+            </summary>
+            <value>
+            The result.
+            </value>
+        </member>
+        <member name="T:NetTelebot.Result.IntegerResult">
+            <summary>
+            When calling method returned <see cref="T:System.Int32"/> in result field on TelegramBotClient class, this object will be returned.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Result.IntegerResult.Ok">
+            <summary>
+            Result request
+            </summary>
+            <value>
+              <c>true</c> if ok; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:NetTelebot.Result.IntegerResult.Result">
+            <summary>
+            Gets the result.
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Result.UserInfoResult">
+            <summary>
+            When calling method returned <see cref="T:NetTelebot.Type.UserInfo"/> in result field on TelegramBotClient class, 
+            this object will be returned.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Result.UserInfoResult.Ok">
+            <summary>
+            Result request.
+            </summary>
+            <value>
+              <c>true</c> if ok; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:NetTelebot.Result.UserInfoResult.Result">
+            <summary>
+            Gets the result.
+            </summary>
+            <returns><see cref="T:NetTelebot.Type.UserInfo"/></returns>
+        </member>
+        <member name="T:NetTelebot.Result.BooleanResult">
+            <summary>
+            When calling method returned <see cref="T:System.Boolean"/> in result field on TelegramBotClient class, this object will be returned.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Result.BooleanResult.Ok">
+            <summary>
+            Result request
+            </summary>
+            <value>
+              <c>true</c> if ok; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:NetTelebot.Result.BooleanResult.Result">
+            <summary>
+            Gets the result.
+            </summary>
+            <value>
+             <c>true</c> if ok; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="T:NetTelebot.Result.GetUpdatesResult">
+            <summary>
+            When calling GetUpdates method on TelegramBotClient, this object will be returned.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Result.GetUpdatesResult.Ok">
+            <summary>
+            Gets a value indicating whether this <see cref="T:NetTelebot.Result.GetUpdatesResult"/> is ok.
+            </summary>
+            <value>
+              <c>true</c> if ok; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:NetTelebot.Result.GetUpdatesResult.Result">
+            <summary>
+            Gets the result.
+            </summary>
+            <value>
+            The result is instance of the <see cref="T:NetTelebot.Type.UpdateInfo"/> class
+            </value>
+        </member>
+        <member name="T:NetTelebot.Result.GetUserProfilePhotosResult">
+            <summary>
+            When calling GetUserProfilePhotos method on TelegramBotClient class, this object will be returned.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Result.GetUserProfilePhotosResult.Ok">
+            <summary>
+            Gets a value indicating whether this <see cref="T:NetTelebot.Result.GetUserProfilePhotosResult"/> is ok.
+            </summary>
+            <value>
+              <c>true</c> if ok; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:NetTelebot.Result.GetUserProfilePhotosResult.Result">
+            <summary>
+            Gets the result.
+            </summary>
+            <value>
+            The result is instance of the <see cref="T:NetTelebot.Type.UserProfilePhotosInfo"/> class
+            </value>
+        </member>
+        <member name="T:NetTelebot.Result.SendMessageResult">
+            <summary>
+            When calling method returned <see cref="T:NetTelebot.Type.MessageInfo"/> in result field on TelegramBotClient class, this object will be returned.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Result.SendMessageResult.Ok">
+            <summary>
+            Result request.
+            </summary>
+            <value>
+              <c>true</c> if ok; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:NetTelebot.Result.SendMessageResult.Result">
+            <summary>
+            Gets the result.
+            </summary>
+            <returns><see cref="T:NetTelebot.Type.MessageInfo"/></returns>
+        </member>
+        <member name="T:NetTelebot.Result.TelegramUpdateEventArgs">
+            <summary>
+            This object represents an incoming update.
+            At most one of the optional parameters class <see cref="T:NetTelebot.Type.UpdateInfo"/> can be present in any given update.
+            </summary>
+        </member>
+        <member name="M:NetTelebot.Result.TelegramUpdateEventArgs.#ctor(NetTelebot.Type.UpdateInfo[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:NetTelebot.Result.TelegramUpdateEventArgs"/> class.
+            </summary>
+            <param name="updates">The updates.</param>
+        </member>
+        <member name="P:NetTelebot.Result.TelegramUpdateEventArgs.Updates">
+            <summary>
+            An array of incoming messages wrapped in UpdateInfo class.
+            </summary>
+        </member>
+        <member name="T:NetTelebot.TelegramBotClient">
+            <summary>
+            The main class to use Telegram Bot API. 
+            Get an instance of this class and set the Token property and start calling methods.
+            </summary>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:NetTelebot.TelegramBotClient"/> class.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.TelegramBotClient.CheckInterval">
+            <summary>
+            Interval time in milliseconds to get latest messages sent to your bot.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.TelegramBotClient.Token">
+            <summary>
+            Your bot token
+            </summary>
+        </member>
+        <member name="P:NetTelebot.TelegramBotClient.RestClient">
+            <summary>
+            Gets or sets the REST client
+            </summary>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.AnswerShippingQuery(System.String,System.Boolean,NetTelebot.Type.Payment.ShippingOptionInfo[],System.String)">
+            <summary>
+            If you sent an invoice requesting a shipping address and the parameter is_flexible was specified, 
+            the Bot API will send an <see href="https://core.telegram.org/bots/api#update">Update</see> with a shipping_query field to the bot. 
+            Use this method to reply to shipping queries.
+            </summary>
+            <param name="shippingQueryId">Unique identifier for the query to be answered</param>
+            <param name="ok">Specify True if delivery to the specified address is possible and False if there are any problems 
+            (for example, if delivery to the specified address is not possible)</param>
+            <param name="shippingOption">Required if ok is True. 
+            A JSON-serialized array of available shipping options.</param>
+            <param name="errorMessage">Required if ok is False. 
+            Error message in human readable form that explains why it is impossible to complete the order (e.g. "Sorry, delivery to your desired address is unavailable'). 
+            Telegram will display this message to the user.</param>
+            <returns>On success, True is returned.</returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.SendInvoice(System.String,System.String,System.String,System.String,System.String,System.String,NetTelebot.BotEnum.Currency,NetTelebot.Type.Payment.LabeledPriceInfo[],System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Int32},NetTelebot.Interface.IReplyMarkup)">
+            <summary>
+            Use this method to send invoices. 
+            See <see href="https://core.telegram.org/bots/api#sendinvoice">API</see>
+            </summary>
+            <param name="chatId">Unique identifier for the target private chat</param>
+            <param name="title">Product name, 1-32 characters</param>
+            <param name="description">Product description, 1-255 characters</param>
+            <param name="payload">Bot-defined invoice payload, 1-128 bytes. 
+            This will not be displayed to the user, use for your internal processes.</param>
+            <param name="providerToken">Payments provider token, obtained via Botfather</param>
+            <param name="startParameter">Unique deep-linking parameter that can be used to generate this invoice when used as a start parameter</param>
+            <param name="currency">Three-letter ISO 4217 currency code</param>
+            <param name="labeledPrice">Price breakdown, a list of components (e.g. product price, tax, discount, delivery cost, delivery tax, bonus, etc.)</param>
+            <param name="photoUrl">URL of the product photo for the invoice. Can be a photo of the goods or a marketing image for a service. 
+            People like it better when they see what they are paying for.</param>
+            <param name="photoSize">Photo size</param>
+            <param name="photoWidth">Photo width</param>
+            <param name="photoHeight">Photo height</param>
+            <param name="needName">Pass True, if you require the user's full name to complete the order</param>
+            <param name="needPhoneNumber">Pass True, if you require the user's phone number to complete the order</param>
+            <param name="needEmail">Pass True, if you require the user's email to complete the order</param>
+            <param name="needShippingAdress">Pass True, if you require the user's shipping address to complete the order</param>
+            <param name="isFlexible">Pass True, if the final price depends on the shipping method</param>
+            <param name="disableNotification">Sends the message silently. Users will receive a notification with no sound.</param>
+            <param name="replyToMessageId">If the message is a reply, ID of the original message</param>
+            <param name="replyMarkup">A JSON-serialized object for an inline keyboard. 
+            If empty, one 'Pay total price' button will be shown. If not empty, the first button must be a Pay button.</param>
+            <returns>On success, the sent <see cref="T:NetTelebot.Result.SendMessageResult"/> is returned.</returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.AnswerPreCheckoutQuery(System.String,System.Boolean,System.String)">
+            <summary>
+            Once the user has confirmed their payment and shipping details, 
+            the Bot API sends the final confirmation in the form of an Update with the field pre_checkout_query. 
+            Use this method to respond to such pre-checkout queries.
+            See <see href="https://core.telegram.org/bots/api#answerprecheckoutquery">API</see>
+            </summary>
+            <param name="preCheckoutQueryId">Unique identifier for the query to be answered</param>
+            <param name="ok">Specify True if everything is alright (goods are available, etc.) 
+            and the bot is ready to proceed with the order. Use False if there are any problems.</param>
+            <param name="errorMessage">Required if ok is False. 
+            Error message in human readable form that explains the reason for failure to proceed with the checkout 
+            (e.g. "Sorry, somebody just bought the last of our amazing black T-shirts while you were busy filling out your payment details. 
+            Please choose a different color or garment!"). Telegram will display this message to the user.</param>
+            <returns>On success, True is returned. 
+            Note: The Bot API must receive an answer within 10 seconds after the pre-checkout query was sent.</returns>
+        </member>
+        <member name="E:NetTelebot.TelegramBotClient.GetUpdatesError">
+            <summary>
+            Occurs when updates error.
+            </summary>
+        </member>
+        <member name="E:NetTelebot.TelegramBotClient.UpdatesReceived">
+            <summary>
+            Whenever a message is sent to your bot, this event will be raised.
+            </summary>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.GetUpdates(System.Int32)">
+            <summary>
+            Use this method to receive incoming updates using long polling
+            </summary>
+            <param name="offset">Identifier of the first update to be returned. 
+            Must be greater by one than the highest among the identifiers of previously received updates. 
+            By default, updates starting with the earliest unconfirmed update are returned. 
+            An update is considered confirmed as soon as getUpdates is called with an offset higher than its update_id. 
+            The negative offset can be specified to retrieve updates starting from -offset update from the end of the updates queue. 
+            All previous updates will forgotten.</param>
+            <returns>
+            On success, the sent <see cref="T:NetTelebot.Result.GetUpdatesResult"/> is returned.
+            </returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.GetUpdates(System.Byte)">
+            <summary>
+            Use this method to receive incoming updates using long polling
+            </summary>
+            <param name="limit">Limits the number of updates to be retrieved. 
+            Values between 1—100 are accepted. Defaults to 100.</param>
+            <returns>
+            On success, the sent <see cref="T:NetTelebot.Result.GetUpdatesResult" /> is returned.
+            </returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.GetUpdates(System.Int64)">
+            <summary>
+            Use this method to receive incoming updates using long polling
+            </summary>
+            <param name="timeout">Timeout in seconds for long polling. Defaults to 0, i.e. usual short polling. 
+            Should be positive, short polling should be used for testing purposes only.</param>
+            <returns>
+            On success, the sent <see cref="T:NetTelebot.Result.GetUpdatesResult" /> is returned.
+            </returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.GetUpdates(NetTelebot.BotEnum.AllowedUpdates[])">
+            <summary>
+            Use this method to receive incoming updates using long polling
+            </summary>
+            <param name="allowedUpdates">List the types of updates you want your bot to receive. 
+            Specify an empty list to receive all updates regardless of type (default). If not specified, the previous setting will be used.</param>
+            <returns>
+            On success, the sent <see cref="T:NetTelebot.Result.GetUpdatesResult" /> is returned.
+            </returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.GetUpdates(System.Int32,System.Byte)">
+            <summary>
+            Use this method to receive incoming updates using long polling
+            </summary>
+            <param name="offset">Identifier of the first update to be returned. 
+            Must be greater by one than the highest among the identifiers of previously received updates. 
+            By default, updates starting with the earliest unconfirmed update are returned. 
+            An update is considered confirmed as soon as getUpdates is called with an offset higher than its update_id. 
+            The negative offset can be specified to retrieve updates starting from -offset update from the end of the updates queue. 
+            All previous updates will forgotten.</param>
+            <param name="limit">Limits the number of updates to be retrieved. Values between 1—100 are accepted. Defaults to 100.</param>
+            <returns>
+            On success, the sent <see cref="T:NetTelebot.Result.GetUpdatesResult" /> is returned.
+            </returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.GetUpdates(System.Nullable{System.Int32},System.Nullable{System.Byte},System.Nullable{System.Int64},NetTelebot.BotEnum.AllowedUpdates[])">
+            <summary>
+            Use this method to receive incoming updates using long polling
+            </summary>
+            <param name="offset">Identifier of the first update to be returned. 
+            Must be greater by one than the highest among the identifiers of previously received updates. 
+            By default, updates starting with the earliest unconfirmed update are returned. 
+            An update is considered confirmed as soon as getUpdates is called with an offset higher than its update_id. 
+            The negative offset can be specified to retrieve updates starting from -offset update from the end of the updates queue. 
+            All previous updates will forgotten.</param>
+            <param name="limit">Limits the number of updates to be retrieved. 
+            Values between 1—100 are accepted. Defaults to 100.</param>
+            <param name="timeout">Timeout in seconds for long polling. Defaults to 0, i.e. usual short polling. 
+            Should be positive, short polling should be used for testing purposes only.</param>
+            <param name="allowedUpdates">List the types of updates you want your bot to receive. 
+            Specify an empty list to receive all updates regardless of type (default). 
+            If not specified, the previous setting will be used.</param>
+            <returns>
+            On success, the sent <see cref="T:NetTelebot.Result.GetUpdatesResult" /> is returned.
+            </returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.StartCheckingUpdates(NetTelebot.BotEnum.AllowedUpdates[])">
+            <summary>
+            Checks new updates (sent messages to your bot) automatically. Set CheckInterval property and handle UpdatesReceived event.
+            </summary>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.StopCheckUpdates">
+            <summary>
+            Stops automatic checking updates
+            </summary>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.OnUpdatesReceived(NetTelebot.Type.UpdateInfo[])">
+            <summary>
+            Called when updates received.
+            </summary>
+            <param name="updates">The updates</param>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.OnGetUpdatesError(System.Exception)">
+            <summary>
+            Called when updates error.
+            </summary>
+            <param name="exception">The exception.</param>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.EditMessageText(System.String,System.Object,System.Nullable{System.Int32},System.String,System.Nullable{NetTelebot.BotEnum.ParseMode},System.Nullable{System.Boolean},NetTelebot.Interface.IInlineKeyboardMarkup)">
+            <summary>
+            Use this method to edit text and game messages sent by the bot or via the bot (for inline bots).
+            See <see href="https://core.telegram.org/bots/api#editmessagetext">API</see>
+            </summary>
+            <param name="text">New text of the message</param>
+            <param name="chatId">Optional.
+            Required if inline_message_id is not specified. Unique identifier for the target chat or username of the target channel (in the format @channelusername)</param>
+            <param name="messageId">Optional.
+            Required if inline_message_id is not specified. Identifier of the sent message</param>
+            <param name="inlineMessageId">Optional.
+            Required if chat_id and message_id are not specified. Identifier of the inline message</param>
+            <param name="parseMode">Optional. 
+            Send Markdown or HTML, if you want Telegram apps to show bold, italic, fixed-width text or inline URLs in your bot's message.</param>
+            <param name="disableWebPagePreview">Optional. 
+            Disables link previews for links in this message.</param>
+            <param name="replyMarkup">Optional. 
+            A JSON-serialized object for an inline keyboard. Please note, that it is currently only possible to edit messages without reply_markup or with inline keyboards.</param>
+            <returns>On success, if edited message is sent by the bot, the edited Message is returned</returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.EditMessageCaption(System.Object,System.Nullable{System.Int32},System.String,System.String,NetTelebot.Interface.IInlineKeyboardMarkup)">
+            <summary>
+            Use this method to edit captions of messages sent by the bot or via the bot (for inline bots). 
+            See <see href="https://core.telegram.org/bots/api#editmessagecaption">API</see>
+            </summary>
+            <param name="chatId">Optional. 
+            Required if inline_message_id is not specified. Unique identifier for the target chat or username of the target channel (in the format @channelusername)</param>
+            <param name="messageId">Optional. 
+            Required if inline_message_id is not specified. Identifier of the sent message</param>
+            <param name="inlineMessageId">Optional. 
+            Required if chat_id and message_id are not specified. Identifier of the inline message</param>
+            <param name="caption">Optional. 
+            New caption of the message</param>
+            <param name="replyMarkup">Optional.
+            A JSON-serialized object for an inline keyboard.</param>
+            <returns>On success, if edited message is sent by the bot, the edited Message is returned</returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.EditMessageReplyMarkup(System.Object,System.Nullable{System.Int32},System.String,NetTelebot.Interface.IInlineKeyboardMarkup)">
+            <summary>
+            Use this method to edit only the reply markup of messages sent by the bot or via the bot (for inline bots). 
+            See <see href="https://core.telegram.org/bots/api#editmessagereplymarkup">API</see>
+            </summary>
+            <param name="chatId">Optional. 
+            Required if inline_message_id is not specified. 
+            Unique identifier for the target chat or username of the target channel (in the format @channelusername)</param>
+            <param name="messageId">Optional. 
+            Required if inline_message_id is not specified. Identifier of the sent message</param>
+            <param name="inlineMessageId">Optional. 
+            Required if chat_id and message_id are not specified. Identifier of the inline message</param>
+            <param name="replyMarkup">Optional. 
+            A JSON-serialized object for an inline keyboard. </param>
+            <returns>On success, if edited message is sent by the bot, the edited Message is returned</returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.DeleteMessage(System.Object,System.Int32)">
+            <summary>
+            Use this method to delete a message, including service messages, with the following limitations:
+            - A message can only be deleted if it was sent less than 48 hours ago.
+            - Bots can delete outgoing messages in groups and supergroups.
+            - Bots granted can_post_messages permissions can delete outgoing messages in channels.
+            - If the bot is an administrator of a group, it can delete any message there.
+            - If the bot has can_delete_messages permission in a supergroup or a channel, it can delete any message there.
+            </summary>
+            <param name="chatId">Unique identifier for the target chat or username of the target channel (in the format @channelusername)</param>
+            <param name="messageId">Identifier of the message to delete</param>
+            <returns></returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.GetsMe">
+            <summary>
+            Gets information about your bot. You can call this method as a ping
+            </summary>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.SendMessage(System.Object,System.String,System.Nullable{NetTelebot.BotEnum.ParseMode},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Int32},NetTelebot.Interface.IReplyMarkup)">
+            <summary>
+            Use this method to send text messages. See <see href="https://core.telegram.org/bots/api#sendmessage">API</see>
+            </summary>
+            <param name="chatId">Unique identifier for the target chat or username of the target channel (in the format @channelusername)</param>
+            <param name="text">Text of the message to be sent</param>
+            <param name="parseMode">Send Markdown or HTML, if you want Telegram apps to show bold, italic, fixed-width text or inline URLs in your bot's message</param>
+            <param name="disableWebPagePreview">Disables link previews for links in this message</param>
+            <param name="disableNotification">Sends the message silently. iOS users will not receive a notification, Android users will receive a notification with no sound.</param>
+            <param name="replyToMessageId">If the message is a reply, ID of the original message</param>
+            <param name="replyMarkup">Additional interface options. 
+            A JSON-serialized object for a custom reply keyboard, instructions to hide keyboard or to force a reply from the user.</param>
+            <returns>On success, the sent <see cref="T:NetTelebot.Result.SendMessageResult"/> is returned.</returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.ForwardMessage(System.Object,System.Int32,System.Int32,System.Nullable{System.Boolean})">
+            <summary>
+            Use this method to forward messages of any kind. See <see href="https://core.telegram.org/bots/api#forwardmessage">API</see>
+            </summary>
+            <param name="chatId">Unique identifier for the target chat or username of the target channel (in the format @channelusername)</param>
+            <param name="fromChatId">Unique identifier for the chat where the original message was sent — User or GroupChat id</param>
+            <param name="messageId">Unique message identifier</param>
+            <param name="disableNotification">Sends the message silently. Users will receive a notification with no sound.</param>
+            <returns>On success, the sent <see cref="T:NetTelebot.Result.SendMessageResult"/> is returned.</returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.SendPhoto(System.Object,NetTelebot.Interface.IFile,System.String,System.Nullable{System.Boolean},System.Nullable{System.Int32},NetTelebot.Interface.IReplyMarkup)">
+            <summary>
+            Use this method to send photos. See <see href="https://core.telegram.org/bots/api#sendphoto">API</see>
+            </summary>
+            <param name="chatId">Unique identifier for the target chat or username of the target channel (in the format @channelusername)</param>
+            <param name="photo">Photo to send. You can either pass a file_id as String to resend a photo that is already on the Telegram servers (using ExistingFile class),
+            or upload a new photo using multipart/form-data. (Using NewFile class)</param>
+            <param name="caption">Photo caption (may also be used when resending photos by file_id).</param>
+            <param name="disableNotification">Sends the message silently. iOS users will not receive a notification, Android users will receive a notification with no sound.</param>
+            <param name="replyToMessageId">If the message is a reply, ID of the original message</param>
+            <param name="replyMarkup">Additional interface options. 
+            A JSON-serialized object for a custom reply keyboard, instructions to hide keyboard or to force a reply from the user.</param>
+            <returns>On success, the sent <see cref="T:NetTelebot.Result.SendMessageResult"/> is returned.</returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.SendAudio(System.Object,NetTelebot.Interface.IFile,System.String,System.Nullable{System.Int32},System.String,System.String,System.Nullable{System.Boolean},System.Nullable{System.Int32},NetTelebot.Interface.IReplyMarkup)">
+            <summary>
+            Use this method to send audio files, if you want Telegram clients to display the file as a playable voice message.
+            For this to work, your audio must be in an .ogg file encoded with OPUS (other formats may be sent as Document). 
+            Bots can currently send audio files of up to 50 MB in size, this limit may be changed in the future.
+            See <see href="https://core.telegram.org/bots/api#sendaudio">API</see>
+            </summary>
+            <param name="chatId">Unique identifier for the target chat or username of the target channel (in the format @channelusername)</param>
+            <param name="audio">Audio file to send. You can either pass a file_id as String to resend an audio that is already on the Telegram servers,
+            or upload a new audio file using multipart/form-data.</param>
+            <param name="caption">Audio caption, 0-200 characters</param>
+            <param name="duration">Duration of the audio in seconds</param> 
+            <param name="performer">Duration of the audio in seconds</param>
+            <param name="title">Track name</param>
+            <param name="disableNotification">Sends the message silently. Users will receive a notification with no sound.</param> 
+            <param name="replyToMessageId">If the message is a reply, ID of the original message</param>
+            <param name="replyMarkup">Additional interface options. 
+            A JSON-serialized object for a custom reply keyboard, instructions to hide keyboard or to force a reply from the user.</param>
+            <returns>On success, the sent <see cref="T:NetTelebot.Result.SendMessageResult"/> is returned.</returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.SendDocument(System.Object,NetTelebot.Interface.IFile,System.String,System.Nullable{System.Boolean},System.Nullable{System.Int32},NetTelebot.Interface.IReplyMarkup)">
+            <summary>
+            Use this method to send general files. Bots can currently send files of any type of up to 50 MB in size, this limit may be changed in the future.
+            See <see href="https://core.telegram.org/bots/api#senddocument">API</see>
+            </summary>
+            <param name="chatId">Unique identifier for the target chat or username of the target channel (in the format @channelusername)</param>
+            <param name="document">File to send. You can either pass a file_id as String to resend a file that is already on the Telegram servers,
+            or upload a new file using multipart/form-data.</param>
+            <param name="caption">Document caption (may also be used when resending documents by file_id), 0-200 characters</param>
+            <param name="disableNotification">Sends the message silently. Users will receive a notification with no sound.</param> 
+            <param name="replyToMessageId">If the message is a reply, ID of the original message</param>
+            <param name="replyMarkup">Additional interface options. A JSON-serialized object for a custom reply keyboard, instructions to hide keyboard or to force a reply from the user.</param>
+            <returns>On success, the sent <see cref="T:NetTelebot.Result.SendMessageResult"/> is returned.</returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.SendSticker(System.Object,NetTelebot.Interface.IFile,System.Nullable{System.Boolean},System.Nullable{System.Int32},NetTelebot.Interface.IReplyMarkup)">
+            <summary>
+            Use this method to send .webp stickers. See <see href="https://core.telegram.org/bots/api#sendsticker">API</see>
+            </summary>
+            <param name="chatId">Unique identifier for the target chat or username of the target channel (in the format @channelusername)</param>
+            <param name="sticker">Sticker to send. You can either pass a file_id as String to resend a sticker that is 
+            already on the Telegram servers, or upload a new sticker using multipart/form-data.</param>
+            <param name="disableNotification">Sends the message silently. Users will receive a notification with no sound.</param> 
+            <param name="replyToMessageId">If the message is a reply, ID of the original message</param>
+            <param name="replyMarkup">Additional interface options. A JSON-serialized object for a custom reply keyboard, instructions to hide keyboard or to force a reply from the user.</param>
+            <returns>On success, the sent <see cref="T:NetTelebot.Type.MessageInfo"/> is returned.</returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.SendVideo(System.Object,NetTelebot.Interface.IFile,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.Nullable{System.Boolean},System.Nullable{System.Int32},NetTelebot.Interface.IReplyMarkup)">
+            <summary>
+            Use this method to send video files, Telegram clients support mp4 videos (other formats may be sent as Document). 
+            Bots can currently send video files of up to 50 MB in size, this limit may be changed in the future. See <see href="https://core.telegram.org/bots/api#sendvideo"></see>
+            </summary>
+            <param name="chatId">Unique identifier for the target chat or username of the target channel (in the format @channelusername)</param>
+            <param name="video">Video to send. You can either pass a file_id as String to resend a video that is already on the Telegram servers,
+            or upload a new video file using multipart/form-data.</param>
+            <param name="duration">Optional. Duration of sent video in seconds</param>
+            <param name="width">Optional. Video width</param> 
+            <param name="height">Video height</param>
+            <param name="caption">Optional. Video caption (may also be used when resending videos by file_id), 0-200 characters</param>
+            <param name="disableNotification">Optional. Sends the message silently. Users will receive a notification with no sound.</param>
+            <param name="replyToMessageId">If the message is a reply, ID of the original message</param>
+            <param name="replyMarkup">Additional interface options. A JSON-serialized object for a custom reply keyboard, instructions to hide keyboard or to force a reply from the user.</param>
+            <returns>On success, the sent <see cref="T:NetTelebot.Type.MessageInfo"/> is returned.</returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.SendVoice(System.Object,NetTelebot.Interface.IFile,System.String,System.Nullable{System.Int32},System.Nullable{System.Boolean},System.Nullable{System.Int32},NetTelebot.Interface.IReplyMarkup)">
+            <summary>
+            Use this method to send audio files, if you want Telegram clients to display the file as a playable voice message. 
+            For this to work, your audio must be in an .ogg file encoded with OPUS (other formats may be sent as Audio or Document).
+            On success, the sent Message is returned. Bots can currently send voice messages of up to 50 MB in size, this limit may be changed in the future.
+            </summary>
+            <param name="chatId">Unique identifier for the target chat or username of the target channel (in the format @channelusername)</param>
+            <param name="voice">Audio file to send. Pass a file_id as String to send a file that exists on the Telegram servers (recommended), 
+            pass an HTTP URL as a String for Telegram to get a file from the Internet, or upload a new one using multipart/form-data</param>
+            <param name="caption">Voice message caption, 0-200 characters </param>
+            <param name="duration">Duration of the voice message in seconds </param>
+            <param name="disableNotification">Sends the message silently. Users will receive a notification with no sound.</param>
+            <param name="replyToMessageId">If the message is a reply, ID of the original message</param>
+            <param name="replyMarkup">Additional interface options. A JSON-serialized object for an inline keyboard, custom reply keyboard, 
+            instructions to remove reply keyboard or to force a reply from the user.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.SendVideoNote(System.Object,NetTelebot.Interface.IFile,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Boolean},System.Nullable{System.Int32},NetTelebot.Interface.IReplyMarkup)">
+            <summary>
+            As of v.4.0, Telegram clients support rounded square mp4 videos of up to 1 minute long.
+            Use this method to send video messages.
+            </summary>
+            <param name="chatId">Unique identifier for the target chat or username of the target channel (in the format @channelusername)</param>
+            <param name="videoNote">Video note to send. Pass a file_id as String to send a video note that exists on the Telegram servers (recommended) 
+            or upload a new video using multipart/form-data. 
+            Sending video notes by a URL is currently unsupported</param>
+            <param name="duration">Optional. Duration of sent video in seconds</param>
+            <param name="length">Optional. Video width and height</param>
+            <param name="disableNotification">Optional. Sends the message silently. Users will receive a notification with no sound.</param>
+            <param name="replyToMessageId">Optional. If the message is a reply, ID of the original message</param>
+            <param name="replyMarkup">Optional. Additional interface options. 
+            A JSON-serialized object for an inline keyboard, custom reply keyboard, instructions to remove reply keyboard or to force a reply from the user.</param>
+            <returns>On success, the sent <see cref="T:NetTelebot.Type.MessageInfo"/> is returned</returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.SendLocation(System.Object,System.Single,System.Single,System.Nullable{System.Boolean},System.Nullable{System.Int32},NetTelebot.Interface.IReplyMarkup)">
+            <summary>
+            Use this method to send point on the map.
+            See <see href="https://core.telegram.org/bots/api#sendlocation">API</see>
+            </summary>
+            <param name="chatId">Unique identifier for the target chat or username of the target channel (in the format @channelusername)</param>
+            <param name="latitude">Latitude of location</param>
+            <param name="longitude">Longitude of location</param>
+            <param name="disableNotification">Sends the message silently. Users will receive a notification with no sound.</param>
+            <param name="replyToMessageId">If the message is a reply, ID of the original message</param>
+            <param name="replyMarkup">Additional interface options. A JSON-serialized object for a custom reply keyboard, instructions to hide keyboard or to force a reply from the user.</param>
+            <returns>On success, the sent <see cref="T:NetTelebot.Type.MessageInfo"/> is returned.</returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.SendVenue(System.Object,System.Single,System.Single,System.String,System.String,System.String,System.Nullable{System.Boolean},System.Nullable{System.Int32},NetTelebot.Interface.IReplyMarkup)">
+            <summary>
+            Use this method to send information about a venue.
+            </summary>
+            <param name="chatId">Unique identifier for the target chat or username of the target channel (in the format @channelusername)</param>
+            <param name="latitude">Latitude of the venue</param>
+            <param name="longitude">Longitude of the venue</param>
+            <param name="title">Name of the venue</param>
+            <param name="address">Address of the venue</param>
+            <param name="foursquareId">Foursquare identifier of the venue</param>
+            <param name="disableNotification">Sends the message silently. Users will receive a notification with no sound.</param>
+            <param name="replyToMessageId">If the message is a reply, ID of the original message</param>
+            <param name="replyMarkup">Additional interface options. A JSON-serialized object for an 
+            inline keyboard, custom reply keyboard, instructions to remove reply keyboard or to force a reply from the user.</param>
+            <returns>On success, the sent <see cref="T:NetTelebot.Result.SendMessageResult"/> is returned</returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.SendContact(System.Object,System.String,System.String,System.String,System.Nullable{System.Boolean},System.Nullable{System.Int32},NetTelebot.Interface.IReplyMarkup)">
+            <summary>
+            Use this method to send phone contacts. See <see href="https://core.telegram.org/bots/api#sendcontact">API</see>
+            </summary>
+            <param name="chatId">Unique identifier for the target chat or username of the target channel (in the format @channelusername)</param>
+            <param name="phoneNumber">Contact's phone number</param>
+            <param name="firstName">Contact's first name</param>
+            <param name="lastName">Contact's last name</param>
+            <param name="disableNotification">Sends the message silently. Users will receive a notification with no sound.</param>
+            <param name="replyToMessageId">If the message is a reply, ID of the original message</param>
+            <param name="replyMarkup">Additional interface options. A JSON-serialized object for an inline keyboard, custom reply keyboard,
+            instructions to remove keyboard or to force a reply from the user.</param>
+            <returns>On success, the sent <see cref="T:NetTelebot.Type.MessageInfo"/> is returned.</returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.SendChatAction(System.Object,NetTelebot.BotEnum.ChatActions)">
+            <summary>
+            Use this method when you need to tell the user that something is happening on the bot's side. 
+            The status is set for 5 seconds or less (when a message arrives from your bot, Telegram clients clear its typing status).
+            See <see href="https://core.telegram.org/bots/api#sendchataction">API</see>
+            </summary>
+            <param name="chatId">Unique identifier for the target chat or username of the target channel (in the format @channelusername)</param>
+            <param name="action">Type of action to broadcast. Choose one, depending on what the user is about to receive: 
+            typing for text messages, upload_photo for photos, record_video or upload_video for videos, 
+            record_audio or upload_audio for audio files, upload_document for general files, find_location for location data.</param>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.GetUserProfilePhotos(System.Int32,System.Nullable{System.Int32},System.Nullable{System.Byte})">
+            <summary>
+            Use this method to get a list of profile pictures for a user.
+            See <see href="https://core.telegram.org/bots/api#getuserprofilephotos">API</see>
+            </summary>
+            <param name="userId">Unique identifier of the target user</param>
+            <param name="offset">Sequential number of the first photo to be returned. By default, all photos are returned.</param>
+            <param name="limit">Limits the number of photos to be retrieved. Values between 1—100 are accepted. Defaults to 100.</param>
+            <returns><see cref="T:NetTelebot.Type.UserProfilePhotosInfo"/></returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.GetFile(System.String)">
+            <summary>
+            Use this method to get basic info about a file and prepare it for downloading.
+            For the moment, bots can download files of up to 20MB in size. 
+            The file can then be downloaded via the link https://api.telegram.org/file/botToken/file_path, where file_path is taken from the response. 
+            It is guaranteed that the link will be valid for at least 1 hour. When the link expires, a new one can be requested by calling getFile again.
+            </summary>
+            <param name="fileId">File identifier to get info about</param>
+            <returns>On success, a <see cref="T:NetTelebot.Type.FileInfo"/> is returned.</returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.KickChatMember(System.Object,System.Int32,System.DateTime)">
+            <summary>
+            Use this method to kick a user from a group, a supergroup or a channel. 
+            In the case of supergroups and channels, the user will not be able to return to the group on their own using invite links, etc., 
+            unless unbanned first. The bot must be an administrator in the chat for this to work and must have the appropriate admin rights. 
+            See <see href="https://core.telegram.org/bots/api#kickchatmember">API</see> 
+            </summary>
+            <param name="chatId">Unique identifier for the target group or username of the target supergroup or channel</param>
+            <param name="userId">Unique identifier of the target user</param>
+            <param name="untilDate">Date when the user will be unbanned. 
+            If user is banned for more than 366 days or less than 30 seconds from the current time they are considered to be banned forever</param>
+            <returns>Returns True on success, false otherwise</returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.UnbanChatMember(System.Object,System.Int32)">
+            <summary>
+            Use this method to unban a previously kicked user in a supergroup or channel. 
+            The user will not return to the group or channel automatically, but will be able to join via link, etc. 
+            The bot must be an administrator for this to work.
+            See <see href="https://core.telegram.org/bots/api#unbanchatmember">API</see> 
+            </summary>
+            <param name="chatId">Unique identifier for the target chat or username of the target channel (in the format @channelusername)</param>
+            <param name="userId">Unique identifier of the target user</param>
+            <returns>Returns True on success, false otherwise</returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.LeaveChat(System.Object)">
+            <summary>
+            Use this method for your bot to leave a group, supergroup or channel.
+            See <see href="https://core.telegram.org/bots/api#leavechat">API</see> 
+            </summary>
+            <param name="chatId">Unique identifier for the target chat</param>
+            <returns>Returns True on success, false otherwise</returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.GetChat(System.Object)">
+            <summary>
+            Use this method to get up to date information about the chat (current name of the user for one-on-one conversations, current username of a user, group or channel, etc.). 
+            </summary>
+            <param name="chatId">Unique identifier for the target chat or username of the target supergroup or channel (in the format @channelusername)</param>
+            <returns>Returns a <see cref="T:NetTelebot.Result.ChatInfoResult"/> object on success.</returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.GetChatAdministrators(System.Object)">
+            <summary>
+            Use this method to get a list of administrators in a chat. 
+            </summary>
+            <param name="chatId"></param>
+            <returns>On success, returns an Array of <see cref="T:NetTelebot.Type.ChatMemberInfo"/> objects that contains information about all chat
+            administrators except other bots. If the chat is a group or a supergroup and no administrators were appointed, only the creator will be returned.</returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.GetChatMembersCount(System.Object)">
+            <summary>
+            Use this method to get the number of members in a chat. 
+            </summary>
+            <param name="chatId">Unique identifier for the target chat or username of the target supergroup or channel (in the format @channelusername)</param>
+            <returns>Returns <see cref="T:NetTelebot.Result.IntegerResult"/> on success</returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.GetChatMember(System.Object,System.Int32)">
+            <summary>
+            Use this method to get information about a member of a chat. 
+            </summary>
+            <param name="chatId">Unique identifier for the target chat or username of the target supergroup or channel (in the format @channelusername)</param>
+            <param name="userId">Unique identifier of the target user</param>
+            <returns>Returns a <see cref="T:NetTelebot.Type.ChatMemberInfo"/> object on success.</returns>
+        </member>
+        <member name="M:NetTelebot.TelegramBotClient.AswerCallbackQuery(System.String,System.String,System.Nullable{System.Boolean},System.String,System.Nullable{System.Int32})">
+            <summary>
+            Use this method to send answers to callback queries sent from inline keyboards. 
+            The answer will be displayed to the user as a notification at the top of the chat screen or as an alert. 
+            
+            Note: Alternatively, the user can be redirected to the specified Game URL. 
+            For this option to work, you must first create a game for your bot via @Botfather and accept the terms. 
+            Otherwise, you may use links like t.me/your_bot?start=XXXX that open your bot with a parameter.
+            </summary>
+            <param name="callbackQueryId">Unique identifier for the query to be answered</param>
+            <param name="text">Text of the notification. If not specified, nothing will be shown to the user, 0-200 characters</param>
+            <param name="showAlert">If true, an alert will be shown by the client instead of a notification at the top of the chat screen. Defaults to false.</param>
+            <param name="url">URL that will be opened by the user's client. If you have created a Game and accepted the conditions via @Botfather, 
+            specify the URL that opens your game – note that this will only work if the query comes from a callback_game button. 
+            Otherwise, you may use links like t.me/your_bot?start=XXXX that open your bot with a parameter.</param>
+            <param name="cacheTime">The maximum amount of time in seconds that the result of the callback query may be cached client-side. 
+            Telegram apps will support caching starting in version 3.14. Defaults to 0.</param>
+            <returns>On success, True is returned.</returns>
+        </member>
+        <member name="T:NetTelebot.Type.AudioInfo">
+            <summary>
+            This object represents an audio file (voice note).
+            See <see href="https://core.telegram.org/bots/api#audio">API</see>
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.AudioInfo.FileId">
+            <summary>
+            Unique identifier for this file
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.AudioInfo.Duration">
+            <summary>
+            Duration of the audio in seconds as defined by sender
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.AudioInfo.Performer">
+            <summary>
+            Optional. Performer of the audio as defined by sender or by audio tags
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.AudioInfo.Title">
+            <summary>
+            Optional. Title of the audio as defined by sender or by audio tags
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.AudioInfo.MimeType">
+            <summary>
+            Optional. MIME type of the file as defined by sender
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.AudioInfo.FileSize">
+            <summary>
+            Optional. File size
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.ChatInfo">
+            <summary>
+            This object represents a chat. 
+            See <see href="https://core.telegram.org/bots/api#chat">API</see>
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ChatInfo.Id">
+            <summary>
+            Unique identifier for this chat. This number may be greater than 32 bits and some programming languages may have 
+            difficulty/silent defects in interpreting it. But it is smaller than 52 bits, so a signed 64 bit integer or double-precision
+            float type are safe for storing this identifier.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ChatInfo.Type">
+            <summary>
+            Type of chat, can be either “private”, “group”, “supergroup” or “channel”
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ChatInfo.Title">
+            <summary>
+            Optional. Title, for supergroups, channels and group chats
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ChatInfo.Username">
+            <summary>
+            Optional. Username, for private chats, supergroups and channels if available
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ChatInfo.FirstName">
+            <summary>
+            Optional. First name of the other party in a private chat
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ChatInfo.LastName">
+            <summary>
+            Optional. Last name of the other party in a private chat
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ChatInfo.AllMembersAreAdministrators">
+            <summary>
+            Optional. True if a group has ‘All Members Are Admins’ enabled.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ChatInfo.Photo">
+            <summary>
+            Optional. Chat photo. Returned only in getChat.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ChatInfo.Description">
+            <summary>
+            Optional. Description, for supergroups and channel chats. Returned only in getChat.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ChatInfo.InviteLink">
+            <summary>
+            Optional. Chat invite link, for supergroups and channel chats. Returned only in getChat.
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.ChatMemberInfo">
+            <summary>
+            This object contains information about one member of a chat.
+            See <see href="https://core.telegram.org/bots/api#chatmember">API</see>
+            </summary>
+        </member>
+        <member name="M:NetTelebot.Type.ChatMemberInfo.ParseArray(Newtonsoft.Json.Linq.JArray)">
+            <summary>
+            Parses the array.
+            </summary>
+            <param name="jsonArray">The json array.</param>
+            <returns></returns>
+        </member>
+        <member name="P:NetTelebot.Type.ChatMemberInfo.User">
+            <summary>
+            Information about the user
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ChatMemberInfo.Status">
+            <summary>
+            The member's status in the chat. Can be “creator”, “administrator”, “member”, “restricted”, “left” or “kicked”
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ChatMemberInfo.UntilDateUnix">
+            <summary>
+            Optional. 
+            Restictred and kicked only. Date when restrictions will be lifted for this user, unix time
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ChatMemberInfo.UntilDate">
+            <summary>
+            Restictred and kicked only. Date when restrictions will be lifted for this user.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ChatMemberInfo.CanBeEdited">
+            <summary>
+            Optional. 
+            Administrators only. True, if the bot is allowed to edit administrator privileges of that user
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ChatMemberInfo.CanChangeInfo">
+            <summary>
+            Optional. 
+            Administrators only. True, if the administrator can change the chat title, photo and other settings
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ChatMemberInfo.CanPostMessages">
+            <summary>
+            Optional. 
+            Administrators only. True, if the administrator can post in the channel, channels only
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ChatMemberInfo.CanEditMessages">
+            <summary>
+            Optional. 
+            Administrators only. True, if the administrator can edit messages of other users, channels only
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ChatMemberInfo.CanDeleteMessages">
+            <summary>
+            Optional. 
+            Administrators only. True, if the administrator can delete messages of other users
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ChatMemberInfo.CanInviteUsers">
+            <summary>
+            Optional. 
+            Administrators only. True, if the administrator can invite new users to the chat
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ChatMemberInfo.CanRestrictMembers">
+            <summary>
+            Optional. 
+            Administrators only. True, if the administrator can restrict, ban or unban chat members
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ChatMemberInfo.CanPinMessages">
+            <summary>
+            Optional. 
+            Administrators only. True, if the administrator can pin messages, supergroups only
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ChatMemberInfo.CanPromoteMembers">
+            <summary>
+            Optional. 
+            Administrators only. 
+            True, if the administrator can add new administrators with a subset of his own privileges or demote administrators that he has promoted, directly or indirectly 
+            (promoted by administrators that were appointed by the user)
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ChatMemberInfo.CanSendMessages">
+            <summary>
+            Optional. 
+            Restricted only. True, if the user can send text messages, contacts, locations and venues
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ChatMemberInfo.CanSendMediaMessages">
+            <summary>
+            Optional. 
+            Restricted only. True, if the user can send audios, documents, photos, videos, video notes and voice notes, implies can_send_messages
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ChatMemberInfo.CanSendOtherMessages">
+            <summary>
+            Optional. 
+            Restricted only. True, if the user can send animations, games, stickers and use inline bots, implies can_send_media_messages
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ChatMemberInfo.CanAddWebPagePreviews">
+            <summary>
+            Optional. 
+            Restricted only. True, if user may add web page previews to his messages, implies can_send_media_messages
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.ChatPhotoInfo">
+            <summary>
+            This object represents a chat photo.
+            See <see href="https://core.telegram.org/bots/api#chatphoto">API</see>
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ChatPhotoInfo.SmallFileId">
+            <summary>
+            Unique file identifier of small (160x160) chat photo. This file_id can be used only for photo download.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ChatPhotoInfo.BigFileId">
+            <summary>
+            Unique file identifier of big (640x640) chat photo. This file_id can be used only for photo download.
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.ContactInfo">
+            <summary>
+            This object represents a phone contact. See <see href="https://core.telegram.org/bots/api#contact">API</see>
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ContactInfo.PhoneNumber">
+            <summary>
+            Contact's phone number
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ContactInfo.FirstName">
+            <summary>
+            Contact's first name
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ContactInfo.LastName">
+            <summary>
+            Optional. Contact's last name
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ContactInfo.UserId">
+            <summary>
+            Optional. Contact's user identifier in Telegram
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.DocumentInfo">
+            <summary>
+            This object represents a general file (as opposed to photos and audio files).
+            See <see href="https://core.telegram.org/bots/api#document">API</see>
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.DocumentInfo.FileId">
+            <summary>
+            Unique file identifier
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.DocumentInfo.Thumb">
+            <summary>
+            Optional. Document thumbnail as defined by sender
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.DocumentInfo.FileName">
+            <summary>
+            Optional. Original filename as defined by sender
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.DocumentInfo.MimeType">
+            <summary>
+            Optional. MIME type of the file as defined by sender
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.DocumentInfo.FileSize">
+            <summary>
+            Optional. File size
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.ExistingFile">
+            <summary>
+            There are two ways to send files (photos, stickers, audio, media, etc.):
+            1. If the file is already stored somewhere on the Telegram servers, you don't need to reupload it: 
+            each file object has a file_id field, simply pass this file_id as a parameter instead of uploading. There are no limits for files sent this way.
+            2. Provide Telegram with an HTTP URL for the file to be sent.Telegram will download and send the file. 5 MB max size for photos and 20 MB max for other types of content.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ExistingFile.FileId">
+            <summary>
+            Sending by file_id
+            1. It is not possible to change the file type when resending by file_id.I.e.a video can't be sent as a photo, a photo can't be sent as a document, etc. 
+            2. It is not possible to resend thumbnails.
+            3. Resending a photo by file_id will send all of its sizes.
+            4. file_id is unique for each individual bot and can't be transferred from one bot to another.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.ExistingFile.Url">
+            <summary>
+            Sending by URL
+            1. When sending by URL the target file must have the correct MIME type(e.g., audio/mpeg for sendAudio, etc.).
+            2. In sendDocument, sending by URL will currently only work for gif, pdf and zip files.
+            3. To use sendVoice, the file must have the type audio/ogg and be no more than 1MB in size. 1–20MB voice notes will be sent as files.
+            4. Other configurations may work but we can't guarantee that they will.
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.CallbackQueryInfo">
+            <summary>
+            This object represents an incoming callback query from a callback button in an inline keyboard. 
+            If the button that originated the query was attached to a message sent by the bot, the field message will be present. 
+            If the button was attached to a message sent via the bot (in inline mode), the field inline_message_id will be present. 
+            Exactly one of the fields data or game_short_name will be present.
+            See <see href="https://core.telegram.org/bots/api#callbackquery">API</see>
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.CallbackQueryInfo.Id">
+            <summary>
+            Unique identifier for this query
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.CallbackQueryInfo.From">
+            <summary>
+            Sender
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.CallbackQueryInfo.Message">
+            <summary>
+            Optional. 
+            Message with the callback button that originated the query. 
+            Note that message content and message date will not be available if the message is too old
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.CallbackQueryInfo.InlineMessageId">
+            <summary>
+            Optional. 
+            Identifier of the message sent via the bot in inline mode, that originated the query.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.CallbackQueryInfo.ChatInstance">
+            <summary>
+            Global identifier, uniquely corresponding to the chat to which the message with the callback button was sent. 
+            Useful for high scores in games.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.CallbackQueryInfo.Data">
+            <summary>
+            Optional. 
+            Data associated with the callback button. Be aware that a bad client can send arbitrary data in this field.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.CallbackQueryInfo.GameShortName">
+            <summary>
+            Optional. Short name of a Game to be returned, serves as the unique identifier for the game
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.FileInfo">
+            <summary>
+            This object represents a file ready to be downloaded. 
+            The file can be downloaded via the link https://api.telegram.org/file/botToken/file_path. 
+            It is guaranteed that the link will be valid for at least 1 hour. When the link expires, a new one can be requested by calling getFile.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.FileInfo.FileId">
+            <summary>
+            Unique identifier for this file
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.FileInfo.FileSize">
+            <summary>
+            Optional. File size, if known
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.FileInfo.FilePath">
+            <summary>
+            Optional. File path. Use https://api.telegram.org/file/botToken/file_path to get the file
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.Games.AnimationInfo">
+            <summary>
+            You can provide an animation for your <see href="https://core.telegram.org/bots/api#game">game</see> 
+            so that it looks stylish in chats (check out <see href="https://t.me/gamebot">Lumberjack</see> for an example). 
+            This object represents an animation file to be displayed in the message containing a <see href="https://core.telegram.org/bots/api#games">game</see>.
+            See <see href="https://core.telegram.org/bots/api#animation">API</see>
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Games.AnimationInfo.FileId">
+            <summary>
+            Unique file identifier
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Games.AnimationInfo.Thumb">
+            <summary>
+            Optional. Animation thumbnail as defined by sender
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Games.AnimationInfo.FileName">
+            <summary>
+            Optional. Original animation filename as defined by sender
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Games.AnimationInfo.MimeType">
+            <summary>
+            Optional. MIME type of the file as defined by sender
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Games.AnimationInfo.FileSize">
+            <summary>
+            Optional. File size
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.Games.GameInfo">
+            <summary>
+            This object represents a game. Use BotFather to create and edit games, their short names will act as unique identifiers.
+            See <see href="https://core.telegram.org/bots/api#game">API</see>
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Games.GameInfo.Title">
+            <summary>
+            Title of the game
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Games.GameInfo.Description">
+            <summary>
+            Description of the game
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Games.GameInfo.Photo">
+            <summary>
+            Photo that will be displayed in the game message in chats.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Games.GameInfo.Text">
+            <summary>
+            Optional.
+            Brief description of the game or high scores included in the game message. 
+            Can be automatically edited to include current high scores for the game 
+            when the bot calls setGameScore, or manually edited using editMessageText. 
+            0-4096 characters.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Games.GameInfo.Entities">
+            <summary>
+            Optional.
+            Special entities that appear in text, such as usernames, URLs, bot commands, etc.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Games.GameInfo.Animation">
+            <summary>
+            Optional. 
+            Animation that will be displayed in the game message in chats. 
+            Upload via <see href="https://t.me/botfather">BotFather</see>
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.InlineMode.ChosenInlineResultInfo">
+            <summary>
+            Represents a result of an inline query that was chosen by the user and sent to their chat partner.
+            Note: 
+            It is necessary to enable inline feednack via @Botfather in order to receive these objects in updates.
+            See <see href="https://core.telegram.org/bots/api#choseninlineresult">API</see> 
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.InlineMode.ChosenInlineResultInfo.ResultId">
+            <summary>
+            The unique identifier for the result that was chosen
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.InlineMode.ChosenInlineResultInfo.From">
+            <summary>
+            The user that chose the result
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.InlineMode.ChosenInlineResultInfo.Location">
+            <summary>
+            Optional. Sender location, only for bots that require user location
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.InlineMode.ChosenInlineResultInfo.InlineMessageId">
+            <summary>
+            Optional. 
+            Identifier of the sent inline message. Available only if there is an inline keyboard attached to the message. 
+            Will be also received in callback queries and can be used to edit the message.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.InlineMode.ChosenInlineResultInfo.Query">
+            <summary>
+            The query that was used to obtain the result
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.InlineMode.InlineQueryInfo">
+            <summary>
+            This object represents an incoming inline query. 
+            When the user sends an empty query, your bot could return some default or trending results.
+            See <see href="https://core.telegram.org/bots/api#choseninlineresult">API</see> 
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.InlineMode.InlineQueryInfo.Id">
+            <summary>
+            Unique identifier for this query
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.InlineMode.InlineQueryInfo.From">
+            <summary>
+            Sender
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.InlineMode.InlineQueryInfo.Location">
+            <summary>
+            Optional. 
+            Sender location, only for bots that request user location
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.InlineMode.InlineQueryInfo.Query">
+            <summary>
+            Text of the query (up to 512 characters)
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.InlineMode.InlineQueryInfo.Offset">
+            <summary>
+            Offset of the results to be returned, can be controlled by the bot
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.Keyboard.ForceReplyMarkup">
+            <summary>
+            Upon receiving a message with this object, Telegram clients will display a reply interface to the user 
+            (act as if the user has selected the bot‘s message and tapped ’Reply'). This can be extremely useful if you want to create user-friendly step-by-step
+            interfaces without having to sacrifice privacy mode.
+            See <see href="https://core.telegram.org/bots/api#forcereply">API</see>
+            Since the value "force_reply: false" does not make sense, the field of the class of this value is missing
+            </summary>
+        </member>
+        <member name="M:NetTelebot.Type.Keyboard.ForceReplyMarkup.GetJson">
+            <summary>
+            Gets the string json object ForceReplyMarkup.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Keyboard.ForceReplyMarkup.Selective">
+            <summary>
+            Optional. Use this parameter if you want to force reply from specific users only. 
+            Targets: 
+            1) users that are @mentioned in the text of the Message object; 
+            2) if the bot's message is a reply (has reply_to_message_id), sender of the original message.
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.Keyboard.InlineKeyboardButton">
+            <summary>
+            This object represents one button of an inline keyboard. You must use exactly one of the optional fields.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Keyboard.InlineKeyboardButton.Text">
+            <summary>
+            Label text on the button
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Keyboard.InlineKeyboardButton.Url">
+            <summary>
+            Optional. 
+            HTTP url to be opened when button is pressed
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Keyboard.InlineKeyboardButton.CallbackData">
+            <summary>
+            Optional. 
+            Data to be sent in a callback query to the bot when button is pressed, 1-64 bytes
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Keyboard.InlineKeyboardButton.SwitchInlineQuery">
+            <summary>
+            Optional. 
+            If set, pressing the button will prompt the user to select one of their chats, open that chat and insert the bot‘s username and the specified inline query in the input field. 
+            Can be empty, in which case just the bot’s username will be inserted.
+            
+            Note: This offers an easy way for users to start using your bot in inline mode when they are currently in a private chat with it. 
+            Especially useful when combined with switch_pm… actions – in this case the user will be automatically returned to the chat they switched from, skipping the chat selection screen.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Keyboard.InlineKeyboardButton.SwitchInlineQueryCurrentChat">
+            <summary>
+            Optional. 
+            If set, pressing the button will insert the bot‘s username and the specified inline query in the current chat's input field. 
+            Can be empty, in which case only the bot’s username will be inserted. This offers a quick way for the user to open your bot in 
+            inline mode in the same chat – good for selecting something from multiple options.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Keyboard.InlineKeyboardButton.CallbackGame">
+            <summary>
+            Optional. 
+            Description of the game that will be launched when the user presses the button.
+            
+            NOTE: This type of button must always be the first button in the first row.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Keyboard.InlineKeyboardButton.Pay">
+            <summary>
+            Optional.
+            Specify True, to send a Pay button.
+            NOTE: This type of button must always be the first button in the first row.
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.Keyboard.KeyboardButton">
+            <summary>
+            This object represents one button of the reply keyboard. For simple Text buttons String can be used instead of this object to specify Text of the button. 
+            Optional fields are mutually exclusive.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Keyboard.KeyboardButton.Text">
+            <summary>
+            Text of the button. If none of the optional fields are used, it will be sent to the bot as a message when the button is pressed
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Keyboard.KeyboardButton.RequestContact">
+            <summary>
+            Optional. If True, the user's phone number will be sent as a contact when the button is pressed. Available in private chats only
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Keyboard.KeyboardButton.RequestLocation">
+            <summary>
+            Optional. If True, the user's current location will be sent when the button is pressed. Available in private chats only
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.Keyboard.InlineKeyboardMarkup">
+            <summary>
+            This object represents an inline keyboard that appears right next to the message it belongs to..
+            </summary>
+        </member>
+        <member name="M:NetTelebot.Type.Keyboard.InlineKeyboardMarkup.GetJson">
+            <summary>
+            Gets the json.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Keyboard.InlineKeyboardMarkup.Keyboard">
+            <summary>
+            Array of button rows, each represented by an Array of Strings
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.Keyboard.ReplyKeyboardRemove">
+            <summary>
+            Upon receiving a message with this object, Telegram clients will remove the current custom keyboard and display the default letter-keyboard.
+            By default, custom keyboards are displayed until a new keyboard is sent by a bot.
+            An exception is made for one-time keyboards that are hidden immediately after the user presses a button
+            Since the value "remove_keyboard: false" does not make sense, the field of the class of this value is missing
+            </summary>
+        </member>
+        <member name="M:NetTelebot.Type.Keyboard.ReplyKeyboardRemove.GetJson">
+            <summary>
+            Gets the string json object ReplyKeyboardRemove
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Keyboard.ReplyKeyboardRemove.Selective">
+            <summary>
+            Optional. Use this parameter if you want to force reply from specific users only. 
+            Targets: 
+            1) users that are @mentioned in the text of the Message object; 
+            2) if the bot's message is a reply (has reply_to_message_id), sender of the original message.
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.Keyboard.ReplyKeyboardMarkup">
+            <summary>
+            This object represents a custom keyboard with reply options
+            </summary>
+        </member>
+        <member name="M:NetTelebot.Type.Keyboard.ReplyKeyboardMarkup.GetJson">
+            <summary>
+            Gets the json.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Keyboard.ReplyKeyboardMarkup.Keyboard">
+            <summary>
+            Array of button rows, each represented by an Array of Strings
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Keyboard.ReplyKeyboardMarkup.ResizeKeyboard">
+            <summary>
+            Optional. Requests clients to resize the keyboard vertically for optimal fit (e.g., make the keyboard smaller if there are just two rows of buttons).
+            Defaults to false, in which case the custom keyboard is always of the same height as the app's standard keyboard.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Keyboard.ReplyKeyboardMarkup.OneTimeKeyboard">
+            <summary>
+            Optional. Requests clients to hide the keyboard as soon as it's been used. Defaults to false.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Keyboard.ReplyKeyboardMarkup.Selective">
+            <summary>
+            Optional. Use this parameter if you want to show the keyboard to specific users only.
+            Targets:
+            1) users that are @mentioned in the text of the Message object;
+            2) if the bot's message is a reply (has reply_to_message_id), sender of the original message.
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.LocationInfo">
+            <summary>
+            This object represents a point on the map.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.LocationInfo.Longitude">
+            <summary>
+            Longitude as defined by sender
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.LocationInfo.Latitude">
+            <summary>
+            Latitude as defined by sender
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.MessageEntityInfo">
+            <summary>
+            This object represents one special entity in a text message. For example, hashtags, usernames, URLs, etc.
+            See <see href="https://core.telegram.org/bots/api#messageentity">API</see>
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageEntityInfo.Type">
+            <summary>
+            Type of the entity. Can be mention (@username), hashtag, bot_command, url, email, bold (bold text),
+            italic (italic text), code (monowidth string), pre (monowidth block), text_link (for clickable text URLs),
+            text_mention (for users without usernames)
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageEntityInfo.Offset">
+            <summary>
+            Offset in UTF-16 code units to the start of the entity
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageEntityInfo.Length">
+            <summary>
+            Length of the entity in UTF-16 code units
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageEntityInfo.Url">
+            <summary>
+            Optional. For “text_link” only, url that will be opened after user taps on the text
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageEntityInfo.User">
+            <summary>
+            Optional. For “text_mention” only, the mentioned user
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.MessageInfo">
+            <summary>
+            This object represents a message. 
+            API <link href="https://core.telegram.org/bots/api#message"></link>
+            </summary>
+        </member>
+        <member name="M:NetTelebot.Type.MessageInfo.#ctor(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Parses the specified json object.
+            </summary>
+            <param name="jsonObject">The json object.</param>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.MessageId">
+            <summary>
+            Unique message identifier inside this chat
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.From">
+            <summary>
+            Optional. Sender, can be empty for messages sent to channel
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.DateUnix">
+            <summary>
+            Date the message was sent in Unix time
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.Date">
+            <summary>
+            Date the message was sent in <see cref="T:System.DateTime"/>
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.Chat">
+            <summary>
+            Conversation the message belongs to
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.ForwardFrom">
+            <summary>
+            Optional. For forwarded messages, sender of the original message.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.ForwardFromChat">
+            <summary>
+            Optional. For messages forwarded from a channel, information about the original channel
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.ForwardFromMessageId">
+            <summary>
+            Optional. For forwarded channel posts, identifier of the original message in the channel 
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.ForwardSignature">
+            <summary>
+            Optional. For messages forwarded from channels, signature of the post author if present
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.ForwardDateUnix">
+            <summary>
+            Optional. For forwarded messages, date the original message was sent in Unix time
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.ForwardDate">
+            <summary>
+            Optional. For forwarded messages, date the original message was sent in <see cref="T:System.DateTime"/>
+            </summary>
+            <remarks> This extension, not the available API type <seealso cref="M:NetTelebot.Extension.UtilityExtensions.ToDateTime(System.Int64)"/> </remarks>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.ReplyToMessage">
+            <summary>
+            Optional. For replies, the original message. Note that the Message object in this field will not contain further reply_to_message fields even if it itself is a reply.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.EditDateUnix">
+            <summary>
+            Optional. Date the message was last edited in Unix time
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.EditDate">
+            <summary>
+            Optional. Date the message was last edited 
+            </summary>
+            <remarks> This extension, not the available API type <seealso cref="M:NetTelebot.Extension.UtilityExtensions.ToDateTime(System.Int64)"/> </remarks>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.AuthorSignature">
+            <summary>
+            Optional. Signature of the post author for messages in channels
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.Text">
+            <summary>
+            Optional. For text messages, the actual UTF-8 text of the message 
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.Entities">
+            <summary>
+            Optional. For text messages, special entities like usernames, URLs, bot commands, etc. that appear in the text
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.CaptionEntities">
+            <summary>
+            Optional. For messages with a caption, special entities like usernames, URLs, bot commands, etc. that appear in the caption
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.Audio">
+            <summary>
+            Optional. Message is an audio file, information about the file TestAppealToTheEmptyAudio()
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.Document">
+            <summary>
+            Optional. Message is a general file, information about the file TestAppealToTheEmptyDocument()
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.Game">
+            <summary>
+            This object represents a game. Use BotFather to create and edit games, their short names will act as unique identifiers.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.Photo">
+            <summary>
+            Optional. Message is a photo, available sizes of the photo
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.Sticker">
+            <summary>
+            Optional. Message is a sticker, information about the sticker 
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.Video">
+            <summary>
+            Optional. Message is a video, information about the video 
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.Voice">
+            <summary>
+            This object represents a voice note.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.VideoNote">
+            <summary>
+            This object represents a video message (available in Telegram apps as of v.4.0).
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.NewChatMembers">
+            <summary>
+            Optional. New members that were added to the group or supergroup and information about them (the bot itself may be one of these members)
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.Caption">
+            <summary>
+            Optional. Caption for the document, photo or video, 0-200 characters 
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.Contact">
+            <summary>
+            Optional. Message is a shared contact, information about the contact TestAppealToTheEmptyContact()
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.Location">
+            <summary>
+            Optional. Message is a shared location, information about the location 
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.Venue">
+            <summary>
+            Optional. This object represents a venue.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.NewChatMember">
+            <summary>
+            Optional. A new member was added to the group, information about them (this member may be bot itself)  
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.LeftChatMember">
+            <summary>
+            Optional. A member was removed from the group, information about them (this member may be bot itself) 
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.NewChatTitle">
+            <summary>
+            Optional. A group title was changed to this value 
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.NewChatPhoto">
+            <summary>
+            Optional. A group photo was change to this value TestAppealToTheEmptyNewChatPhoto()
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.DeleteChatPhoto">
+            <summary>
+            Optional. Informs that the group photo was deleted TestAppealToTheEmptyDeleteChatPhoto()
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.GroupChatCreated">
+            <summary>
+            Optional. Informs that the group has been created TestAppealToTheGroupChatCreated()
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.SuperGroupChatCreated">
+            <summary>
+            Optional. Service message: the supergroup has been created. This field can‘t be received in a message coming through updates,
+            because bot can’t be a member of a supergroup when it is created. It can only be found in reply_to_message if someone replies to a very
+            first message in a directly created supergroup. 
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.ChannelChatCreated">
+            <summary>
+            Optional. Service message: the channel has been created. This field can‘t be received in a message coming through updates, 
+            because bot can’t be a member of a channel when it is created. It can only be found in reply_to_message if someone replies to a very
+            first message in a channel. TestAppealToChannelChatCreated()
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.MigrateToChatId">
+            <summary>
+            Optional. The group has been migrated to a supergroup with the specified identifier. This number may be greater than 32 bits and some
+            programming languages may have difficulty/silent defects in interpreting it. But it is smaller than 52 bits, so a signed 64 bit integer or double-precision
+            float type are safe for storing this identifier. 
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.MigrateFromChatId">
+            <summary>
+            Optional. The supergroup has been migrated from a group with the specified identifier. This number may be greater than 32 bits and some
+            programming languages may have difficulty/silent defects in interpreting it. But it is smaller than 52 bits, so a signed 64 bit integer or double-precision
+            float type are safe for storing this identifier. 
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.PinnedMessage">
+            <summary>
+            Optional. Specified message was pinned. Note that the Message object in this field will not contain further reply_to_message fields even if it is itself a reply.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.Invoice">
+            <summary>
+            Optional. Message is an <see href="https://core.telegram.org/bots/api#payments">invoice </see> for a payment, information about the invoice. 
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.MessageInfo.SuccessfulPayment">
+            <summary>
+            Optional. Message is a service message about a successful payment, information about the payment.
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.NewFile">
+            <summary>
+            This object represents the contents of a file to be uploaded. 
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.NewFile.FileContent">
+            <summary>
+            Gets or sets the content of the file.
+            </summary>
+            <value>
+            The content of the file.
+            </value>
+        </member>
+        <member name="P:NetTelebot.Type.NewFile.FileName">
+            <summary>
+            Gets or sets the name of the file.
+            </summary>
+            <value>
+            The name of the file.
+            </value>
+        </member>
+        <member name="T:NetTelebot.Type.Payment.InvoceInfo">
+            <summary>
+            This object contains basic information about an invoice.
+            See <see href="https://core.telegram.org/bots/api#invoice">API</see>
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.InvoceInfo.Title">
+            <summary>
+            Product name
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.InvoceInfo.Description">
+            <summary>
+            Product description
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.InvoceInfo.StartParameter">
+            <summary>
+            Unique bot deep-linking parameter that can be used to generate this invoice
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.InvoceInfo.Currency">
+            <summary>
+            Three-letter ISO 4217 <see cref="T:NetTelebot.BotEnum.Currency"/>
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.InvoceInfo.TotalAmmount">
+            <summary>
+            Total price in the smallest units of the currency (integer, not float/double). 
+            For example, for a price of US$ 1.45 pass amount = 145. 
+            See the exp parameter in <see href="https://core.telegram.org/bots/payments/currencies.json">currencies.json</see>, 
+            it shows the number of digits past the decimal point for each currency (2 for the majority of currencies).
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.Payment.LabeledPriceInfo">
+            <summary>
+            This object represents a portion of the price for goods or services.
+            </summary>
+        </member>
+        <member name="M:NetTelebot.Type.Payment.LabeledPriceInfo.GetJsonArray(System.Collections.Generic.IEnumerable{NetTelebot.Type.Payment.LabeledPriceInfo})">
+            <summary>
+            This method creates part of the json-serialize array of the available shipping options.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.LabeledPriceInfo.Label">
+            <summary>
+            Portion label
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.LabeledPriceInfo.Amount">
+            <summary>
+            Price of the product in the smallest units of the currency (integer, not float/double). 
+            For example, for a price of US$ 1.45 pass amount = 145. 
+            See the exp parameter in <see href="https://core.telegram.org/bots/payments/currencies.json">currencies.json</see>, 
+            it shows the number of digits past the decimal point for each currency (2 for the majority of currencies).
+            </summary>
+        </member>
+        <member name="M:NetTelebot.Type.Payment.LabeledPriceInfo.GetJsonObject(NetTelebot.Type.Payment.LabeledPriceInfo)">
+            <summary>
+            This method creates part of the json-serialize array of the available shipping options.
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.Payment.OrderInfo">
+            <summary>
+            This object represents information about an order.
+            See <see href="https://core.telegram.org/bots/api#orderinfo">API</see>
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.OrderInfo.Name">
+            <summary>
+            Optional. User name
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.OrderInfo.PnoneNumber">
+            <summary>
+            Optional. User's phone number
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.OrderInfo.Email">
+            <summary>
+            Optional. User email
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.OrderInfo.ShippingAddress">
+            <summary>
+            Optional. User shipping address
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.Payment.PreCheckoutQueryInfo">
+            <summary>
+            This object contains information about an incoming pre-checkout query.
+            See <see href="https://core.telegram.org/bots/api#precheckoutquery">API</see>
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.PreCheckoutQueryInfo.Id">
+            <summary>
+            Unique query identifier
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.PreCheckoutQueryInfo.From">
+            <summary>
+            User who sent the query
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.PreCheckoutQueryInfo.Currency">
+            <summary>
+            Three-letter ISO 4217 currency code
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.PreCheckoutQueryInfo.TotalAmount">
+            <summary>
+            Price of the product in the smallest units of the currency (integer, not float/double). 
+            For example, for a price of US$ 1.45 pass amount = 145. 
+            See the exp parameter in <see href="https://core.telegram.org/bots/payments/currencies.json">currencies.json</see>, 
+            it shows the number of digits past the decimal point for each currency (2 for the majority of currencies).
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.PreCheckoutQueryInfo.InvoicePayload">
+            <summary>
+            Bot specified invoice payload
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.PreCheckoutQueryInfo.ShippingOptionId">
+            <summary>
+            Optional. 
+            Identifier of the shipping option chosen by the user
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.PreCheckoutQueryInfo.OrderInfo">
+            <summary>
+            Optional. 
+            Order info provided by the user
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.Payment.ShippingOptionInfo">
+            <summary>
+            This object represents one shipping option.
+            </summary>
+        </member>
+        <member name="M:NetTelebot.Type.Payment.ShippingOptionInfo.GetJson(NetTelebot.Type.Payment.ShippingOptionInfo[])">
+            <summary>
+            This method create JSON-serialized array of available shipping options. Used for resonse in AnswerShippingQuery method.
+            </summary>
+            <param name="shippingOption"><see cref="T:NetTelebot.Type.Payment.ShippingOptionInfo"/> array</param>
+            <returns><see cref="T:NetTelebot.Type.Payment.ShippingOptionInfo"/> JSON-serialized array</returns>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.ShippingOptionInfo.Id">
+            <summary>
+            Shipping option identifier
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.ShippingOptionInfo.Title">
+            <summary>
+            Option title
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.ShippingOptionInfo.LabelPrice">
+            <summary>
+            List of price portions
+            </summary>
+        </member>
+        <member name="M:NetTelebot.Type.Payment.ShippingOptionInfo.GetJsonArray(System.Collections.Generic.IEnumerable{NetTelebot.Type.Payment.ShippingOptionInfo})">
+            <summary>
+            This method creates part of the json-serialize array of the available shipping options.
+            </summary>
+        </member>
+        <member name="M:NetTelebot.Type.Payment.ShippingOptionInfo.GetJsonObject(NetTelebot.Type.Payment.ShippingOptionInfo)">
+            <summary>
+            This method creates part of the json-serialize array of the available shipping options.
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.Payment.ShippingQueryInfo">
+            <summary>
+            This object contains information about an incoming shipping query.
+            See <see href="https://core.telegram.org/bots/api#shippingquery">API</see>
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.ShippingQueryInfo.Id">
+            <summary>
+            Unique query identifier
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.ShippingQueryInfo.From">
+            <summary>
+            User who sent the query
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.ShippingQueryInfo.InvoicePayload">
+            <summary>
+            Bot specified invoice payload
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.ShippingQueryInfo.ShippingAddress">
+            <summary>
+            User specified shipping address
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.Payment.SuccessfulPaymentInfo">
+            <summary>
+            This object contains basic information about a successful payment.
+            See <see href="https://core.telegram.org/bots/api#successfulpayment">API</see>
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.SuccessfulPaymentInfo.Currency">
+            <summary>
+            Three-letter ISO 4217 currency code
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.SuccessfulPaymentInfo.TotalAmmount">
+            <summary>
+            Total price in the smallest units of the currency (integer, not float/double). 
+            For example, for a price of US$ 1.45 pass amount = 145. 
+            See the exp parameter in <see href="https://core.telegram.org/bots/payments/currencies.json">currencies.json </see>, 
+            it shows the number of digits past the decimal point for each currency (2 for the majority of currencies).
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.SuccessfulPaymentInfo.InvoicePayload">
+            <summary>
+            Bot specified invoice payload
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.SuccessfulPaymentInfo.ShippingOptionId">
+            <summary>
+            Optional. Identifier of the shipping option chosen by the user
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.SuccessfulPaymentInfo.OrderInfo">
+            <summary>
+            Optional. Order info provided by the user
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.SuccessfulPaymentInfo.TelegramPaymentChargeId">
+            <summary>
+            Telegram payment identifier
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.SuccessfulPaymentInfo.ProviderPaymentChargeId">
+            <summary>
+            Provider payment identifier
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.Payment.ShippingAddressInfo">
+            <summary>
+            This object represents a shipping address.
+            See <see href="https://core.telegram.org/bots/api#shippingaddress"></see>
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.ShippingAddressInfo.CountryCode">
+            <summary>
+            ISO 3166-1 alpha-2 country code
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.ShippingAddressInfo.State">
+            <summary>
+            State, if applicable
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.ShippingAddressInfo.City">
+            <summary>
+            City
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.ShippingAddressInfo.StreetLineOne">
+            <summary>
+            First line for the address
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.ShippingAddressInfo.StreetLineTwo">
+            <summary>
+            Second line for the address
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.Payment.ShippingAddressInfo.PostCode">
+            <summary>
+            Address post code
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.PhotoSizeInfo">
+            <summary>
+            This object represents one size of a photo or a file/sticker thumbnail.
+            See <see href="https://core.telegram.org/bots/api#photosize">API</see>
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.PhotoSizeInfo.FileId">
+            <summary>
+            Unique identifier for this file
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.PhotoSizeInfo.Width">
+            <summary>
+            Photo width
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.PhotoSizeInfo.Height">
+            <summary>
+            Photo height
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.PhotoSizeInfo.FileSize">
+            <summary>
+            Optional. File size
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.StickerInfo">
+            <summary>
+            This object represents a sticker.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.StickerInfo.FileId">
+            <summary>
+            Unique identifier for this file
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.StickerInfo.Width">
+            <summary>
+            Sticker width
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.StickerInfo.Height">
+            <summary>
+            Sticker height
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.StickerInfo.Thumb">
+            <summary>
+            Optional. Sticker thumbnail in .webp or .jpg format
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.StickerInfo.Emoji">
+            <summary>
+            Optional. Emoji associated with the sticker
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.StickerInfo.FileSize">
+            <summary>
+            Optional. File size
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.UpdateInfo">
+            <summary>
+            This object represents an incoming update.
+            At most one of the optional parameters can be present in any given update.
+            See <see href="https://core.telegram.org/bots/api#update">API</see>
+            </summary>
+        </member>
+        <member name="M:NetTelebot.Type.UpdateInfo.ParseArray(Newtonsoft.Json.Linq.JArray)">
+            <summary>
+            Parses the array.
+            </summary>
+            <param name="jsonArray">The json array</param>
+        </member>
+        <member name="P:NetTelebot.Type.UpdateInfo.UpdateId">
+            <summary>
+            The update‘s unique identifier. 
+            Update identifiers start from a certain positive number and increase sequentially. 
+            This ID becomes especially handy if you’re using Webhooks, since it allows you to 
+            ignore repeated updates or to restore the correct update sequence, should they get out of order.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.UpdateInfo.Message">
+            <summary>
+            Optional. 
+            New incoming message of any kind — text, photo, sticker, etc.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.UpdateInfo.EditedMessage">
+            <summary>
+            Optional. 
+            New version of a message that is known to the bot and was edited
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.UpdateInfo.ChannelPost">
+            <summary>
+            Optional. 
+            New incoming channel post of any kind — text, photo, sticker, etc.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.UpdateInfo.EditedChannelPost">
+            <summary>
+            Optional. 
+            New version of a channel post that is known to the bot and was edited
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.UpdateInfo.InlineQuery">
+            <summary>
+            Optional.
+            New incoming inline query
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.UpdateInfo.ChosenInlineResult">
+            <summary>
+            Optional. 
+            The result of an inline query that was chosen by a user and sent to their chat partner. 
+            Please see our documentation on the <see href="https://core.telegram.org/bots/inline#collecting-feedback">feedback collecting</see> for details on how to enable these updates for your bot.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.UpdateInfo.CallbackQuery">
+            <summary>
+            Optional. 
+            New incoming callback query
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.UpdateInfo.ShippingQuery">
+            <summary>
+            Optional. 
+            New incoming shipping query. Only for invoices with flexible price
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.UpdateInfo.PreCheckoutQuery">
+            <summary>
+            Optional. 
+            New incoming pre-checkout query. Contains full information about checkout
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.UserInfo">
+            <summary>
+            This object represents a Telegram user or bot.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.UserInfo.Id">
+            <summary>
+            Unique identifier for this user or bot
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.UserInfo.IsBot">
+            <summary>
+            True, if this user is a bot
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.UserInfo.FirstName">
+            <summary>
+            User‘s or bot’s first name
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.UserInfo.LastName">
+            <summary>
+            Optional. User‘s or bot’s last name
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.UserInfo.UserName">
+            <summary>
+            Optional. User‘s or bot’s username
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.UserInfo.LanguageCode">
+            <summary>
+            Optional. IETF language tag of the user's language
+            About <see href="https://en.wikipedia.org/wiki/IETF_language_tag">IETF language tag</see>
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.UserProfilePhotosInfo">
+            <summary>
+            This object represent a user's profile pictures.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.UserProfilePhotosInfo.TotalCount">
+            <summary>
+            Total number of profile pictures the target user has
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.UserProfilePhotosInfo.Photos">
+            <summary>
+            Requested profile pictures (in up to 4 sizes each)
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.VenueInfo">
+            <summary>
+            This object represents a venue.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.VenueInfo.Location">
+            <summary>
+            Venue location
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.VenueInfo.Title">
+            <summary>
+            Name of the venue
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.VenueInfo.Address">
+            <summary>
+            Address of the venue
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.VenueInfo.FoursquareId">
+            <summary>
+            Optional. 
+            Foursquare identifier of the venue
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.VideoInfo">
+            <summary>
+            This object represents a video file.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.VideoInfo.FileId">
+            <summary>
+            Unique identifier for this file
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.VideoInfo.Width">
+            <summary>
+            Video width as defined by sender
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.VideoInfo.Height">
+            <summary>
+            Video height as defined by sender
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.VideoInfo.Duration">
+            <summary>
+            Duration of the video in seconds as defined by sender
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.VideoInfo.Thumb">
+            <summary>
+            Optional. Video thumbnail
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.VideoInfo.MimeType">
+            <summary>
+            Optional. Mime type of a file as defined by sender
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.VideoInfo.FileSize">
+            <summary>
+            Optional. File size
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.VideoNoteInfo">
+            <summary>
+            This object represents a video message (available in Telegram apps as of v.4.0).
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.VideoNoteInfo.FileId">
+            <summary>
+            Unique identifier for this file
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.VideoNoteInfo.Length">
+            <summary>
+            Video width and height as defined by sender
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.VideoNoteInfo.Duration">
+            <summary>
+            Duration of the video in seconds as defined by sender
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.VideoNoteInfo.Thumb">
+            <summary>
+            Optional. Video thumbnail
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.VideoNoteInfo.FileSize">
+            <summary>
+            Optional. File size
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Type.VoiceInfo">
+            <summary>
+            This object represents a voice note.
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.VoiceInfo.FileId">
+            <summary>
+            Unique identifier for this file
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.VoiceInfo.Duration">
+            <summary>
+            Duration of the audio in seconds as defined by sender
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.VoiceInfo.MimeType">
+            <summary>
+            Optional. MIME type of the file as defined by sender
+            </summary>
+        </member>
+        <member name="P:NetTelebot.Type.VoiceInfo.FileSize">
+            <summary>
+            Optional. File size
+            </summary>
+        </member>
+        <member name="T:NetTelebot.Extension.UtilityExtensions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:NetTelebot.Extension.UtilityExtensions.ToDateTime(System.Int64)">
+            <summary>
+            Convert date from unix time to the <see cref="T:System.DateTime"/>.
+            </summary>
+            <param name="unixDate">The unix date</param>
+            <returns>Convert DateTime</returns>
+        </member>
+        <member name="M:NetTelebot.Extension.UtilityExtensions.ToUnixTime(System.DateTime)">
+            <summary>
+            Convert a date time object to Unix time representation.
+            </summary>
+            <param name="dateTime">The datetime object to convert to Unix time stamp.</param>
+            <returns>Returns a numerical representation (Unix time) of the DateTime object.</returns>
+        </member>
+        <member name="M:NetTelebot.Extension.UtilityExtensions.ToEnum``1(System.String)">
+            <summary>
+            Converts a string to the specified in T enum type
+            </summary>
+            <param name="enumString">String value for conversion to an existing structure</param>
+            <typeparam name="T">Exiting structure</typeparam>
+            <returns>The value of the enumeration T from string. Null if constant in enumeration not exist</returns>
+        </member>
+        <member name="M:NetTelebot.Extension.UtilityExtensions.ToJarray(NetTelebot.BotEnum.AllowedUpdates[])">
+            <summary>
+            Converts AllowedUpdates[] to JArray.
+            </summary>
+            <param name="allowedUpdateses">List the types of updates you want your bot to receive</param>
+            <returns>Jarray the types of updates</returns>
+        </member>
+    </members>
+</doc>

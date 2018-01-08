@@ -1,0 +1,5 @@
+POOL: stratum+ssl://xmr-eu1.nanopool.org:14433, WALLET: YOUR_XMR_ADDRESS.0.PLACEHOLDER/lol@gmail.com, PSW: x, ALLPOOLS: 0
+POOL: stratum+ssl://xmr-eu2.nanopool.org:14433, WALLET: YOUR_XMR_ADDRESS.0.PLACEHOLDER/lol@gmail.com, PSW: x, ALLPOOLS: 0
+POOL: stratum+ssl://xmr-asia1.nanopool.org:14433, WALLET: YOUR_XMR_ADDRESS.0.PLACEHOLDER/lol@gmail.com, PSW: x, ALLPOOLS: 0
+POOL: stratum+ssl://xmr-us-east1.nanopool.org:14433, WALLET: YOUR_XMR_ADDRESS.0.PLACEHOLDER/lol@gmail.com, PSW: x, ALLPOOLS: 0
+POOL: stratum+ssl://xmr-us-west1.nanopool.org:14433, WALLET: YOUR_XMR_ADDRESS.0.PLACEHOLDER/lol@gmail.com, PSW: x, ALLPOOLS: 0

@@ -1,0 +1,158 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BestKorea.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Current" Type="System.String" Scope="User">
+      <Value Profile="(Default)">None</Value>
+    </Setting>
+    <Setting Name="gpus" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;GeForce GTX 1080&lt;/string&gt;
+  &lt;string&gt;Radeon RX 580&lt;/string&gt;
+  &lt;string&gt;Radeon R9 Fury&lt;/string&gt;
+  &lt;string&gt;GeForce GTX 1060 6GB&lt;/string&gt;
+  &lt;string&gt;GeForce GTX 1080 TI&lt;/string&gt;
+  &lt;string&gt;Nvidia Titan XP&lt;/string&gt;
+  &lt;string&gt;Radeon R9 Nano&lt;/string&gt;
+  &lt;string&gt;Radeon R9 390X&lt;/string&gt;
+  &lt;string&gt;Radeon R9 Fury X&lt;/string&gt;
+  &lt;string&gt;Radeon R9 390&lt;/string&gt;
+  &lt;string&gt;Radeon RX 580&lt;/string&gt;
+  &lt;string&gt;Radeon RX 560&lt;/string&gt;
+  &lt;string&gt;GeForce GTX 1070&lt;/string&gt;
+  &lt;string&gt;Radeon RX 380&lt;/string&gt;
+  &lt;string&gt;Radeon RX 480&lt;/string&gt;
+  &lt;string&gt;Radeon RX 470&lt;/string&gt;
+  &lt;string&gt;Radeon RX 460&lt;/string&gt;
+  &lt;string&gt;Radeon R9 360X&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="InstalledGPU" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Unknown</Value>
+    </Setting>
+    <Setting Name="LogFile" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Sites" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;1szb &lt;/string&gt;
+  &lt;string&gt;1Ex &lt;/string&gt;
+  &lt;string&gt;247exchange &lt;/string&gt;
+  &lt;string&gt;24change&lt;/string&gt;
+  &lt;string&gt;796&lt;/string&gt;
+  &lt;string&gt;Alcurex&lt;/string&gt;
+  &lt;string&gt;alfacashier&lt;/string&gt;
+  &lt;string&gt;alts&lt;/string&gt;
+  &lt;string&gt;anxpro&lt;/string&gt;
+  &lt;string&gt;askcoin&lt;/string&gt;
+  &lt;string&gt;basebit&lt;/string&gt;
+  &lt;string&gt;bit2c&lt;/string&gt;
+  &lt;string&gt;bitebi9&lt;/string&gt;
+  &lt;string&gt;bitex&lt;/string&gt;
+  &lt;string&gt;bitbay&lt;/string&gt;
+  &lt;string&gt;bitcoin.com&lt;/string&gt;
+  &lt;string&gt;bitcoin.net&lt;/string&gt;
+  &lt;string&gt;bitcointoyou&lt;/string&gt;
+  &lt;string&gt;Bitcurex&lt;/string&gt;
+  &lt;string&gt;Bitfinex&lt;/string&gt;
+  &lt;string&gt;bitflyer&lt;/string&gt;
+  &lt;string&gt;bitkonan&lt;/string&gt;
+  &lt;string&gt;bitmex&lt;/string&gt;
+  &lt;string&gt;bitnz&lt;/string&gt;
+  &lt;string&gt;bitonic&lt;/string&gt;
+  &lt;string&gt;bitorado&lt;/string&gt;
+  &lt;string&gt;bitso&lt;/string&gt;
+  &lt;string&gt;bitstamp&lt;/string&gt;
+  &lt;string&gt;Bittrex &lt;/string&gt;
+  &lt;string&gt;bittylicious&lt;/string&gt;
+  &lt;string&gt;bitx/market&lt;/string&gt;
+  &lt;string&gt;Bleutrade &lt;/string&gt;
+  &lt;string&gt;bloombit &lt;/string&gt;
+  &lt;string&gt;bt&lt;/string&gt;
+  &lt;string&gt;btc2day &lt;/string&gt;
+  &lt;string&gt;btc38 &lt;/string&gt;
+  &lt;string&gt;btc100 &lt;/string&gt;
+  &lt;string&gt;btcbox &lt;/string&gt;
+  &lt;string&gt;btcchina &lt;/string&gt;
+  &lt;string&gt;btc-e &lt;/string&gt;
+  &lt;string&gt;btcexchange &lt;/string&gt;
+  &lt;string&gt;btcgreece&lt;/string&gt;
+  &lt;string&gt;btcpool &lt;/string&gt;
+  &lt;string&gt;btctrader &lt;/string&gt;
+  &lt;string&gt;btcxchange &lt;/string&gt;
+  &lt;string&gt;bter &lt;/string&gt;
+  &lt;string&gt;Blaketrader &lt;/string&gt;
+  &lt;string&gt;bx &lt;/string&gt;
+  &lt;string&gt;c-cex &lt;/string&gt;
+  &lt;string&gt;campbx &lt;/string&gt;
+  &lt;string&gt;ccedk &lt;/string&gt;
+  &lt;string&gt;cex &lt;/string&gt;
+  &lt;string&gt;chameleonbit &lt;/string&gt;
+  &lt;string&gt;chbtc &lt;/string&gt;
+  &lt;string&gt;clevercoin &lt;/string&gt;
+  &lt;string&gt;coinbase &lt;/string&gt;
+  &lt;string&gt;coincheck&lt;/string&gt;
+  &lt;string&gt;coinffeine &lt;/string&gt;
+  &lt;string&gt;coinfloor &lt;/string&gt;
+  &lt;string&gt;coingather &lt;/string&gt;
+  &lt;string&gt;coinmate &lt;/string&gt;
+  &lt;string&gt;coingather &lt;/string&gt;
+  &lt;string&gt;coinomat &lt;/string&gt;
+  &lt;string&gt;coinsbank &lt;/string&gt;
+  &lt;string&gt;coinspot &lt;/string&gt;
+  &lt;string&gt;coinsquare &lt;/string&gt;
+  &lt;string&gt;cryptofresh/assets &lt;/string&gt;
+  &lt;string&gt;cryptomic &lt;/string&gt;
+  &lt;string&gt;cryptonit&lt;/string&gt;
+  &lt;string&gt;cryptopia &lt;/string&gt;
+  &lt;string&gt;dashcurex &lt;/string&gt;
+  &lt;string&gt;ecoin &lt;/string&gt;
+  &lt;string&gt;empirex &lt;/string&gt;
+  &lt;string&gt;empoex &lt;/string&gt;
+  &lt;string&gt;exmo &lt;/string&gt;
+  &lt;string&gt;eXrate &lt;/string&gt;
+  &lt;string&gt;gdax &lt;/string&gt;
+  &lt;string&gt;gemini &lt;/string&gt;
+  &lt;string&gt;hitbtc &lt;/string&gt;
+  &lt;string&gt;huobi &lt;/string&gt;
+  &lt;string&gt;ice3x &lt;/string&gt;
+  &lt;string&gt;Iconomi &lt;/string&gt;
+  &lt;string&gt;indacoin &lt;/string&gt;
+  &lt;string&gt;itbit &lt;/string&gt;
+  &lt;string&gt;jubi&lt;/string&gt;
+  &lt;string&gt;justcoin &lt;/string&gt;
+  &lt;string&gt;kraken &lt;/string&gt;
+  &lt;string&gt;leoxchange &lt;/string&gt;
+  &lt;string&gt;litebit &lt;/string&gt;
+  &lt;string&gt;livecoin &lt;/string&gt;
+  &lt;string&gt;localbitcoins &lt;/string&gt;
+  &lt;string&gt;loyalbit &lt;/string&gt;
+  &lt;string&gt;melotic &lt;/string&gt;
+  &lt;string&gt;mercuryex &lt;/string&gt;
+  &lt;string&gt;metaexchangefo &lt;/string&gt;
+  &lt;string&gt;mexbt &lt;/string&gt;
+  &lt;string&gt;monatr &lt;/string&gt;
+  &lt;string&gt;monetago&lt;/string&gt;
+  &lt;string&gt;mycellium &lt;/string&gt;
+  &lt;string&gt;negociecoins &lt;/string&gt;
+  &lt;string&gt;x-e &lt;/string&gt;
+  &lt;string&gt;okcoin &lt;/string&gt;
+  &lt;string&gt;poloniex &lt;/string&gt;
+  &lt;string&gt;quadrigacx &lt;/string&gt;
+  &lt;string&gt;quoine &lt;/string&gt;
+  &lt;string&gt;shapeshift southxchange therocktrading traderowbtc usecryptos&lt;/string&gt;
+  &lt;string&gt;vaultoro &lt;/string&gt;
+  &lt;string&gt;vircurex &lt;/string&gt;
+  &lt;string&gt;yobit &lt;/string&gt;
+  &lt;string&gt;yuanbaohui &lt;/string&gt;
+  &lt;string&gt;yunbi &lt;/string&gt;
+  &lt;string&gt;zaif&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="Logging" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
